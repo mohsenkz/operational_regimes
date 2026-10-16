@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data in your research, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Kazemi
+    given-names: Seyed Mohsen
+  - family-names: Movaghar
+    given-names: Ali
+  - family-names: Hessabi
+    given-names: Shaahin
+title: "Operational Regimes in Non-Convex Optimization: A Multiplier-Based Taxonomy"
+version: 1.0.0
+date-released: 2026-08-31
+url: "https://github.com/mohsenkz/operationalregimes"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Kazemi
+      given-names: Seyed Mohsen
+    - family-names: Movaghar
+      given-names: Ali
+    - family-names: Hessabi
+      given-names: Shaahin
+  title: "Operational Regimes in Non-Convex Optimization: A Multiplier-Based Taxonomy"
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.00471"
+  url: "https://arxiv.org/abs/2609.00471"
