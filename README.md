@@ -16,30 +16,90 @@ Official repository for the paper:
 
 ## Overview
 
-Constrained non-convex optimization appears in many areas, including signal processing, wireless communications, and machine learning. Although a wide range of algorithms are available, selecting an appropriate method and understanding how a problem responds to changes in its data remain challenging.
+At a KKT point of a constrained nonlinear program, Lagrange multipliers encode sensitivity to constraint levels. This paper studies their **collective geometry**: the total magnitude of the active inequality reactions, how that reaction is distributed across constraints, and how the active constraint normals interact directionally.
 
-This work introduces a **multiplier-based taxonomy of operational regimes** for constrained non-convex optimization. The central idea is that the normalized vector of Lagrange multipliers at a KKT stationary point can provide an algorithm-independent structural signature of the local optimization problem.
+The paper defines a three-component multiplier signature
+\[
+\Xi=(\Lambda,\vartheta,I),
+\]
+constructed from the KKT multipliers and active constraint gradients. It is used to assign a KKT point to one of **four open core operational regimes**, with a **hybrid interface** comprising the threshold boundaries.
 
-The framework uses four scale-free shape features of the normalized multiplier vector to distinguish five operational regimes:
+### Multiplier signature
 
-1. **Unconstrained**
-2. **Resource-Limited**
-3. **Saturation**
-4. **Strongly-Coupled**
-5. **Hybrid**
+Let \(x^\star\) be a KKT point, and let \(J=\operatorname{supp}(\lambda^\star)\) be the strongly active inequality constraints (those with positive multipliers). For \(i\in J\), define the gradient-normalized reaction
+\[
+\widetilde{\lambda}_i
+=\lambda_i^\star\|\nabla g_i(x^\star)\|_2,
+\qquad
+\Lambda=\sum_{i\in J}\widetilde{\lambda}_i.
+\]
+When \(\Lambda>0\), normalize the reaction profile as
+\[
+\bar{\lambda}_i=\frac{\widetilde{\lambda}_i}{\Lambda}.
+\]
 
-The paper develops structural results for this partition and proposes a linear-time classifier for identifying regimes. Its theoretical analysis addresses invariance under natural KKT symmetries, local stability under data perturbations, regime transitions, and the topological role of the Hybrid regime. Numerical evaluations include 104 mixed-integer nonlinear programming (MINLP) instances and a downlink beamforming instance. See the paper for the precise definitions, assumptions, and results.
+The signature comprises:
+
+- **Sensitivity mass \(\Lambda\):** the total gradient-normalized reaction of the strongly active inequality constraints. It carries units and is compared with a reference-scaled threshold \(\delta_\Lambda\).
+- **Effective participation ratio \(\vartheta\):**
+  \[
+  \vartheta(\bar{\lambda})
+  =\frac{1}{\|\bar{\lambda}\|_2^2}
+  =\frac{\Lambda^2}{\|\widetilde{\lambda}\|_2^2}.
+  \]
+  This is an effective count of how many constraints share the reaction; it is the inverse concentration (Herfindahl–Hirschman/Simpson) index of the normalized reaction profile.
+- **Support-normalized interference index \(I\):** measures the size of the individual reactions relative to their net vector force,
+  \[
+  I(x^\star,\lambda^\star)
+  =\frac{\|\widetilde{\lambda}\|_2}
+  {\left\|\sum_{i\in J}\lambda_i^\star\nabla g_i(x^\star)\right\|_2}.
+  \]
+  Equivalently, it is determined by the normalized active-normal Gram matrix. \(I=1\) for mutually orthogonal active normals; \(I<1\) indicates weighted constructive alignment, while \(I>1\) indicates weighted destructive interference/cancellation.
+
+If \(\Lambda=0\), the paper adopts a convention for the shape coordinates and labels the point `unc`; in the presence of equality constraints, this means **no active inequality reaction**, not necessarily a zero objective gradient.
+
+### Operational regimes
+
+The classification is defined using thresholds
+\[
+\Theta=(\delta_\Lambda,\kappa_{\rm srd},
+\kappa_{\rm sat},\gamma_I),
+\]
+subject to the paper's admissibility conditions. In particular,
+\(1<\kappa_{\rm srd}<2<\kappa_{\rm sat}<n-p\),
+\(\kappa_{\rm sat}\notin\mathbb{N}\), \(\gamma_I>1\), and
+\(\delta_\Lambda>0\). The definitions below apply to the strongly active dual face and use strict inequalities; threshold-boundary cases belong to the hybrid interface.
+
+| Label | Regime name in the paper | Defining conditions | Interpretation |
+|---|---|---|---|
+| `unc` | Negligible constraint reaction | \(\Lambda<\delta_\Lambda\) | Active inequality reaction is below the prescribed mass threshold. |
+| `srd` | Single-resource dominant | \(\Lambda>\delta_\Lambda,\ \vartheta<\kappa_{\rm srd}\) | The reaction is concentrated: the largest normalized reaction share is guaranteed to exceed \(1/\kappa_{\rm srd}>1/2\). |
+| `int` | Intermediate / interference-coupled | \(\Lambda>\delta_\Lambda,\ \vartheta>\kappa_{\rm srd}\), and \((\vartheta<\kappa_{\rm sat}\ \text{or}\ I>\gamma_I)\) | Either participation is intermediate, or sufficiently strong destructive interference places the point in this regime. |
+| `sat` | Saturated / distributed | \(\Lambda>\delta_\Lambda,\ \vartheta>\kappa_{\rm sat},\ I<\gamma_I\) | Reaction is broadly distributed and does not exceed the interference threshold. |
+| `hyb` | Hybrid interface | Threshold-boundary cases separating the open core regimes | A transition/interface label, not a fifth open core regime. |
+
+For a given active set, `sat` may be unavailable when the effective participation ratio cannot exceed \(\kappa_{\rm sat}\); in particular, small active sets may realize only `unc`, `srd`, and `int`. Threshold calibration is consequential, and the Euclidean gradient normalization presumes that the decision variables have compatible units or have been appropriately normalized.
+
+### Scope and theoretical results
+
+Under the regularity assumptions stated in the paper (including LICQ and second-order sufficiency, with strict complementarity where required), the analysis establishes properties of this KKT-point diagnostic, including:
+
+- invariance under constraint permutations and positive constraint/objective rescalings, with the mass threshold transformed covariantly; invariance under the specified Euclidean similarities and locally isometric coordinate changes;
+- local constancy of the regime label under sufficiently small perturbations, with an explicit stability radius;
+- a transition-set and boundary analysis for the hybrid interface, including transversal parameter paths;
+- an exact linear-time classifier at zero tolerance, together with soundness/accuracy bounds for inexact solver iterates, sampled data, and drifting data.
+
+The taxonomy is intended as an inexpensive, solver-independent diagnostic of the dual geometry at a KKT point—not as a demonstrated solver-acceleration method. The paper's regime-related solver-behaviour claims are hypotheses except for the stated local spectral result; its regime-aware ADMM experiment did **not** outperform residual balancing.
 
 ## Key contributions
 
-- **Multiplier-based structural taxonomy:** Uses normalized Lagrange multiplier information to characterize operational regimes at KKT stationary points.
-- **Five-regime partition:** Defines Unconstrained, Resource-Limited, Saturation, Strongly-Coupled, and Hybrid regimes using four scale-free shape features.
-- **Algorithm-independent perspective:** Relates the taxonomy to a unified game-theoretic interpretation of eight algorithm families: block coordinate descent (BCD), alternating direction method of multipliers (ADMM), generalized Benders decomposition (GBD), successive convex approximation (SCA), interior-point methods, mirror descent, Frank–Wolfe, and Riemannian gradient descent.
-- **Structural guarantees:** Studies invariance, perturbation stability using Robinson's strong regularity, codimension-one regime transitions, and the topology of the Hybrid regime.
-- **Linear-time regime classification:** Proposes a classifier and analyzes its correctness, stabilization, sample complexity, and online tracking under data drift.
-- **Numerical evaluation:** Reports experiments on 104 MINLP instances and a downlink beamforming problem.
+- **A three-scalar KKT signature:** gradient-normalized reaction mass \(\Lambda\), effective participation ratio \(\vartheta\), and support-normalized interference index \(I\).
+- **Four open core regimes plus a hybrid boundary:** `unc`, `srd`, `int`, and `sat`, with definitions governed by the threshold tuple \(\Theta\); `hyb` denotes threshold-interface cases.
+- **Structural analysis:** invariance, local stability, regime-transition geometry, and the topology of the hybrid interface under the paper's assumptions.
+- **Classifier and finite-error guarantees:** an \(O(m+|\widehat A|n)\) classification procedure, with results for solver-iterate stabilization, sampling uncertainty, and online tracking under bounded drift.
+- **Numerical study:** controlled synthetic families, Maros–Mészáros quadratic-program benchmarks, and multi-user MIMO downlink beamforming. The experiments support the mathematical analysis while also documenting conservatism of the bounds, regularity limitations, threshold-calibration sensitivity, and the lack of improvement of the tested regime-aware ADMM rule over residual balancing.
 
-For formal statements and their conditions, consult the full paper rather than relying on this summary.
+For exact theorem statements, assumptions, threshold conventions, and experimental protocols, consult the paper: [arXiv:2609.00471](https://arxiv.org/abs/2609.00471).
 
 ## Repository structure
 
