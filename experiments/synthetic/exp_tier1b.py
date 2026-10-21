@@ -3,9 +3,9 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from solvers import _solve
-import tier1_families as t1
-from regimes_lib import *
+from src.optimization.solvers import _solve
+import experiments.synthetic.tier1_families as t1
+from src.regimes.core import *
 
 TH = THETA0
 n = 100

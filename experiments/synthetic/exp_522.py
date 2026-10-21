@@ -1,7 +1,7 @@
 import numpy as np, json, itertools, time
-from solvers import *
-import tier1_families as t1
-from regimes_lib import *
+from src.optimization.solvers import *
+import experiments.synthetic.tier1_families as t1
+from src.regimes.core import *
 
 n = 100
 TH = THETA0

@@ -1,5 +1,5 @@
 import json, collections, itertools, numpy as np
-from regimes_lib import *
+from src.regimes.core import *
 
 R = json.load(open("tier2_mm_raw.json"))
 

@@ -2,9 +2,9 @@
 
 import numpy as np, time
 from scipy.optimize import minimize, nnls
-from mimo import *
-from mimo_v2 import *
-from regimes_lib import *
+from src.optimization.mimo import *
+from src.optimization.mimo_maxmin import *
+from src.regimes.core import *
 
 GMIN_DB = 0.0
 

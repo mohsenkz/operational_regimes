@@ -1,5 +1,5 @@
 import json, numpy as np, collections
-from regimes_lib import *
+from src.regimes.core import *
 
 
 def load(w):

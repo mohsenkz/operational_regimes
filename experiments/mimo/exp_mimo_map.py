@@ -1,5 +1,5 @@
 import numpy as np, json, time, collections
-from mimo import *
+from src.optimization.mimo import *
 
 TH = dict(eta=0.05, ksrd=1.4, ksat=5.5, gI=1.3)
 EPS = 1e-3

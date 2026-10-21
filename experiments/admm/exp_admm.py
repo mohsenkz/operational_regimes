@@ -1,5 +1,5 @@
 import numpy as np, json, time
-from admm_mimo import *
+from src.optimization.admm_mimo import *
 
 conds = [(0.0, 0.0), (10.0, 10.0), (20.0, 20.0)]
 strategies = ["fixed", "5rho_or", "balance", "regime", "random"]

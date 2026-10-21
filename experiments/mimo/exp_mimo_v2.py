@@ -1,5 +1,5 @@
 import numpy as np, json, time, sys
-from mimo_v2 import *
+from src.optimization.mimo_maxmin import *
 
 which = sys.argv[1]
 if which == "minpower":

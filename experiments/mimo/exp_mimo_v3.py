@@ -1,5 +1,5 @@
 import numpy as np, json, time
-from mimo_v3 import *
+from src.optimization.mimo_sumrate import *
 
 levels = [5, 10, 15, 20, 25]
 dels = [0, 5, 10, 15, 20]

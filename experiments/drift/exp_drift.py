@@ -3,8 +3,8 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import tier1_families as t1
-from regimes_lib import *
+import experiments.synthetic.tier1_families as t1
+from src.regimes.core import *
 
 TH = THETA0
 k = 80

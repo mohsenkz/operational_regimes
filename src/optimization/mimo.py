@@ -1,5 +1,5 @@
 import numpy as np, cvxpy as cp
-from regimes_lib import *
+from src.regimes.core import *
 
 M, K = 16, 8
 D = 2 * M * K

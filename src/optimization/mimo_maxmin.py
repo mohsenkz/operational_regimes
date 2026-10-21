@@ -2,8 +2,8 @@
 
 import numpy as np, cvxpy as cp
 from scipy.optimize import nnls
-from mimo import *
-from regimes_lib import *
+from src.optimization.mimo import *
+from src.regimes.core import *
 
 
 # ---------- min-power (as before): features with g_ref from the 0 dB symmetric reference
