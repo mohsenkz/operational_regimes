@@ -1,0 +1,9 @@
+{
+  "experiment": "exp_drift",
+  "parameters": {
+    "k": 80,
+    "ALPHA": 0.05,
+    "T": 2000
+  },
+  "argv": []
+}

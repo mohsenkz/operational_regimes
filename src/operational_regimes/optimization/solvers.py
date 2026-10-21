@@ -1,5 +1,5 @@
 import numpy as np, cvxpy as cp
-from src.regimes.core import *
+from regimes_lib import *
 
 
 # problem: min 1/2||x-c||^2  s.t. A x <= b  (A unit rows)  ; returns dict(x,lam,iters,res,hist(optional))

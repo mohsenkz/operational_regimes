@@ -1,0 +1,34 @@
+{
+  "experiment": "exp_admm",
+  "parameters": {
+    "conds": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        10.0,
+        10.0
+      ],
+      [
+        20.0,
+        20.0
+      ]
+    ],
+    "strategies": [
+      "fixed",
+      "5rho_or",
+      "balance",
+      "regime",
+      "random"
+    ],
+    "NEV": 20,
+    "NTUNE": 5,
+    "GRID": [
+      10.0,
+      30.0,
+      60.0
+    ]
+  },
+  "argv": []
+}

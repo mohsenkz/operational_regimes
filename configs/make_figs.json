@@ -1,0 +1,21 @@
+{
+  "experiment": "make_figs",
+  "parameters": {
+    "gams": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "dels": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ]
+  },
+  "argv": []
+}

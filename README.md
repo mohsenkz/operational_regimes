@@ -1,5 +1,10 @@
 # Operational Regimes in Non-Convex Optimization: A Multiplier-Based Taxonomy
 
+> **Local review/refactoring snapshot — not an upstream release.** See
+> [REFACTORING.md](REFACTORING.md) for the new CLI, validation scope and limitations.
+> The original README below describes the upstream project, not a certification
+> that this modified snapshot reproduces the paper.
+
 [![arXiv](https://img.shields.io/badge/arXiv-2609.00471-b31b1b.svg)](https://arxiv.org/abs/2609.00471)
 [![Code License: GPL v3](https://img.shields.io/badge/Code-GPL--3.0-blue.svg)](LICENSE)
 [![Documentation License: CC BY 4.0](https://img.shields.io/badge/Documentation-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -71,7 +76,7 @@ subject to the paper's admissibility conditions. In particular,
 \(\delta_\Lambda>0\). The definitions below apply to the strongly active dual face and use strict inequalities; threshold-boundary cases belong to the hybrid interface.
 
 | Label | Regime name in the paper | Defining conditions | Interpretation |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `unc` | Negligible constraint reaction | \(\Lambda<\delta_\Lambda\) | Active inequality reaction is below the prescribed mass threshold. |
 | `srd` | Single-resource dominant | \(\Lambda>\delta_\Lambda,\ \vartheta<\kappa_{\rm srd}\) | The reaction is concentrated: the largest normalized reaction share is guaranteed to exceed \(1/\kappa_{\rm srd}>1/2\). |
 | `int` | Intermediate / interference-coupled | \(\Lambda>\delta_\Lambda,\ \vartheta>\kappa_{\rm srd}\), and \((\vartheta<\kappa_{\rm sat}\ \text{or}\ I>\gamma_I)\) | Either participation is intermediate, or sufficiently strong destructive interference places the point in this regime. |
@@ -111,13 +116,26 @@ The following is a suggested structure for organizing code and artifacts associa
 ├── LICENSE                  # GPL-3.0 license for source code
 ├── CITATION.cff             # Optional citation metadata
 ├── requirements.txt         # Python dependencies, if applicable
+├── pyproject.toml
+├── configs/
 ├── data/                    # Benchmark instances and derived data
 ├── src/
-│   ├── regimes/             # Regime definitions and classification
-│   ├── optimization/        # Optimization and solver interfaces
-│   └── utils/               # Shared utilities
+│   └── operational_regimes/
+│       ├── __init__.py
+│       ├── __main__.py
+│       ├── cli.py
+│       ├── regimes/         # Regime definitions and classification
+│       ├── optimization/    # Optimization and solver interfaces
+│       └── utils/           # Shared utilities
 ├── experiments/             # Experiment and reproduction scripts
-└── tests/                   # Automated tests
+│   ├── synthetic/
+│   ├── drift/
+│   ├── benchmarks/
+│   ├── mimo/
+│   ├── admm/
+│   └── figures/
+├── tests/                   # Automated tests
+└── results/
 ```
 
 > **Note:** The tree above is a documentation template, not a guarantee that every listed directory or script is currently present. Keep this section synchronized with the actual repository contents.

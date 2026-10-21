@@ -1,6 +1,6 @@
 import numpy as np, scipy.io as sio, scipy.sparse as sp, json, sys, time, glob, os
 from qpsolvers import Problem, solve_problem
-from src.regimes.core import *
+from src.operational_regimes.regimes.core import *
 
 MM = "/home/claude/mm"
 BIG = 1e19

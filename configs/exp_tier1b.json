@@ -1,0 +1,9 @@
+{
+  "experiment": "exp_tier1b",
+  "parameters": {
+    "n": 100,
+    "EPS": 0.001,
+    "k": 80
+  },
+  "argv": []
+}

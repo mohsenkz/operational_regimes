@@ -1,0 +1,20 @@
+{
+  "experiment": "exp_mimo_v3",
+  "parameters": {
+    "levels": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "dels": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ]
+  },
+  "argv": []
+}
