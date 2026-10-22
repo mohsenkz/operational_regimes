@@ -1,0 +1,1442 @@
+[
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.15160136771442e-12,
+    "kkt_stationarity": 8.396981043307106e-05,
+    "complementarity": 8.813564747422385e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 3.6903813338540203e-13,
+    "kkt_stationarity": 9.766003925718025e-05,
+    "complementarity": 3.616603901965305e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 5.651590306854359e-13,
+    "kkt_stationarity": 0.0064529375826822555,
+    "complementarity": 2.6232584580307967e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": false,
+    "feasibility": 4.285460875053104e-13,
+    "kkt_stationarity": 0.0005276673914112601,
+    "complementarity": 2.4891663817902165e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.3498538104813633e-13,
+    "kkt_stationarity": 8.298850848009742e-05,
+    "complementarity": 7.441879808835047e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.658562590189376e-13,
+    "kkt_stationarity": 4.531295180537631e-05,
+    "complementarity": 7.031949305400564e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 5.341282971471628e-13,
+    "kkt_stationarity": 0.00016799843915293877,
+    "complementarity": 1.7667885004572628e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 2.1571633368466792e-13,
+    "kkt_stationarity": 9.41771647777756e-06,
+    "complementarity": 6.245393451578007e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 8.526512829121202e-13,
+    "kkt_stationarity": 0.0008935165212355101,
+    "complementarity": 4.471548710186829e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 8.206768598029157e-13,
+    "kkt_stationarity": 2.117435848303373e-05,
+    "complementarity": 2.027573364081422e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 2.3814283878209608e-14,
+    "kkt_stationarity": 3.1256540242718955e-06,
+    "complementarity": 6.894683178976391e-14
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 8.021916464429069e-13,
+    "kkt_stationarity": 9.596021398827759e-05,
+    "complementarity": 8.463604528856212e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 9.33975119465913e-13,
+    "kkt_stationarity": 8.59443324707776e-05,
+    "complementarity": 3.282089471281887e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.838351941316432e-13,
+    "kkt_stationarity": 8.594087040814102e-05,
+    "complementarity": 1.119938988024421e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.965716643961059e-13,
+    "kkt_stationarity": 8.232189493317943e-05,
+    "complementarity": 3.166667342375916e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.126388037344441e-13,
+    "kkt_stationarity": 8.283986977097868e-05,
+    "complementarity": 1.0842956276695837e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 8.506528814677949e-13,
+    "kkt_stationarity": 7.106697269515516e-05,
+    "complementarity": 5.459987172322326e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 8.859024624996437e-13,
+    "kkt_stationarity": 6.673051104086336e-05,
+    "complementarity": 1.7973066387995357e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "random",
+    "train_seed": null,
+    "success": false,
+    "feasibility": 3.0326297029148463e-11,
+    "kkt_stationarity": 0.008040792926553242,
+    "complementarity": 4.6187691421617916e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 2.864375403532904e-13,
+    "kkt_stationarity": 5.285053130188455e-05,
+    "complementarity": 1.8070763934756462e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 2.0039581105635307e-11,
+    "kkt_stationarity": 0.0064321115722771605,
+    "complementarity": 3.027095056719693e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 2.1316282072803006e-14,
+    "kkt_stationarity": 2.9646640797853507e-06,
+    "complementarity": 6.171464669157768e-14
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 2.299826995511012e-13,
+    "kkt_stationarity": 7.465709456422331e-05,
+    "complementarity": 5.444390775685202e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 9.407474799161264e-13,
+    "kkt_stationarity": 8.452724620282293e-05,
+    "complementarity": 5.816597742206164e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 9.224843111610426e-13,
+    "kkt_stationarity": 9.071276168193254e-05,
+    "complementarity": 1.7089407011079565e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 4.776179451937423e-13,
+    "kkt_stationarity": 6.488456246378504e-05,
+    "complementarity": 2.745900939559701e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 3.2712721420580237e-13,
+    "kkt_stationarity": 0.00040981808655110585,
+    "complementarity": 2.318056179429092e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": false,
+    "feasibility": 2.309902269459485e-11,
+    "kkt_stationarity": 0.006970492474738799,
+    "complementarity": 3.505503836735665e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 8.638645354608343e-13,
+    "kkt_stationarity": 9.850007951867079e-05,
+    "complementarity": 1.7526127157223785e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 6.768474669627267e-13,
+    "kkt_stationarity": 4.852890153080385e-05,
+    "complementarity": 1.391545481780815e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 9.097167463778533e-13,
+    "kkt_stationarity": 9.854080031530821e-05,
+    "complementarity": 3.617712539248708e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.33288951992472e-13,
+    "kkt_stationarity": 9.498964462772985e-05,
+    "complementarity": 1.3141466205323964e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 6.772360450213455e-14,
+    "kkt_stationarity": 6.419772465848794e-05,
+    "complementarity": 1.2546133594008493e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 5.581091144790662e-13,
+    "kkt_stationarity": 8.736550099731899e-05,
+    "complementarity": 2.4576998369552723e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 4.933831121434196e-13,
+    "kkt_stationarity": 9.995120963107729e-05,
+    "complementarity": 8.497175864553815e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 7.706613125435524e-13,
+    "kkt_stationarity": 8.861415672911654e-05,
+    "complementarity": 2.7081780956288464e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 1.4204748488566565e-12,
+    "kkt_stationarity": 4.336145537564562e-05,
+    "complementarity": 9.88596956813924e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 1.088573675644966e-13,
+    "kkt_stationarity": 9.817554145585827e-05,
+    "complementarity": 1.3022679452365276e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 9.43689570931383e-16,
+    "kkt_stationarity": 0.00010201516740915295,
+    "complementarity": 9.656131340313835e-16
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.5113912605643236e-13,
+    "kkt_stationarity": 9.445082386310723e-05,
+    "complementarity": 3.7642796593132676e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 1.6233125954556726e-12,
+    "kkt_stationarity": 2.5830304837937135e-05,
+    "complementarity": 4.699794756395852e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 5.111466805374221e-13,
+    "kkt_stationarity": 0.004003158130968354,
+    "complementarity": 3.6220335313480147e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 3.6903813338540203e-13,
+    "kkt_stationarity": 9.766003925718025e-05,
+    "complementarity": 3.616603901965305e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.972688927296076e-13,
+    "kkt_stationarity": 7.35550145646302e-05,
+    "complementarity": 4.873279662776934e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 5.953015858040089e-13,
+    "kkt_stationarity": 1.3452818743653339e-05,
+    "complementarity": 1.2833919500790793e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 2.0782264797958305e-12,
+    "kkt_stationarity": 0.00024659305622432015,
+    "complementarity": 7.2082674119492565e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 9.291456493087935e-13,
+    "kkt_stationarity": 8.535912436768989e-05,
+    "complementarity": 6.5840127363702966e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.684275107218582e-13,
+    "kkt_stationarity": 3.508580644950854e-05,
+    "complementarity": 2.1181479599539274e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 2.1571633368466792e-13,
+    "kkt_stationarity": 9.41771647777756e-06,
+    "complementarity": 6.245393451578007e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 3.300137940698278e-13,
+    "kkt_stationarity": 4.2833283822741935e-05,
+    "complementarity": 1.6786454084160707e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 2.4280577548552174e-13,
+    "kkt_stationarity": 4.5416326142198995e-05,
+    "complementarity": 2.1736035819516418e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.02400335275388e-13,
+    "kkt_stationarity": 0.00010354375523313752,
+    "complementarity": 2.582839589812067e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 4.454214774796128e-13,
+    "kkt_stationarity": 4.4524659240985365e-05,
+    "complementarity": 4.69950932995511e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 5.155875726359227e-13,
+    "kkt_stationarity": 7.148709494075867e-05,
+    "complementarity": 1.811829282032056e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 2.7189361873070084e-13,
+    "kkt_stationarity": 5.300319181666957e-05,
+    "complementarity": 7.42152858612235e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.566902411795581e-13,
+    "kkt_stationarity": 9.468622542907479e-05,
+    "complementarity": 7.823900570436147e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 6.932232565759477e-13,
+    "kkt_stationarity": 3.902262442512239e-06,
+    "complementarity": 7.199244224792382e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 5.133671265866724e-13,
+    "kkt_stationarity": 0.11614201486965309,
+    "complementarity": 1.2814706984349046e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 6.294964549624638e-13,
+    "kkt_stationarity": 0.00010618951138685606,
+    "complementarity": 3.297430448285757e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.0020430585864233e-13,
+    "kkt_stationarity": 9.208014214912019e-05,
+    "complementarity": 2.397164004387025e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 9.738876372011873e-13,
+    "kkt_stationarity": 8.176564108830497e-05,
+    "complementarity": 5.128674219558243e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.675215935558754e-13,
+    "kkt_stationarity": 7.228430157885102e-05,
+    "complementarity": 2.6320127065585262e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.301870054097435e-13,
+    "kkt_stationarity": 2.6443707384249393e-05,
+    "complementarity": 1.4615185381673544e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.661338147750939e-13,
+    "kkt_stationarity": 7.391263475657606e-05,
+    "complementarity": 2.9493974683042727e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.861178292183467e-13,
+    "kkt_stationarity": 9.616759715702639e-05,
+    "complementarity": 1.2710633947107115e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 1.2021938999851045e-11,
+    "kkt_stationarity": 0.007091237222524971,
+    "complementarity": 6.542963792528234e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 8.326117573176361e-13,
+    "kkt_stationarity": 4.625548674130897e-05,
+    "complementarity": 4.786817017154148e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.2510439612897244e-13,
+    "kkt_stationarity": 9.871453950965892e-05,
+    "complementarity": 1.3009505409000162e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 1.0655920590352252e-12,
+    "kkt_stationarity": 6.720347173838626e-05,
+    "complementarity": 2.3384524253558898e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 4.641287354445467e-13,
+    "kkt_stationarity": 0.00010391589137354051,
+    "complementarity": 4.548493854141146e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.6609604237014537e-13,
+    "kkt_stationarity": 0.00010066094663541136,
+    "complementarity": 1.5252575015547099e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 7.462919171530302e-13,
+    "kkt_stationarity": 9.340520650091833e-05,
+    "complementarity": 5.959221925897666e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.243583345304614e-13,
+    "kkt_stationarity": 2.5208545838709633e-05,
+    "complementarity": 1.7100230840105097e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.7891911830456593e-13,
+    "kkt_stationarity": 3.5399840129901605e-05,
+    "complementarity": 2.1784658875809916e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.1389114358025836e-13,
+    "kkt_stationarity": 9.021052954727438e-05,
+    "complementarity": 1.866006638096109e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.9152014963406145e-13,
+    "kkt_stationarity": 4.0791890135394304e-05,
+    "complementarity": 5.731104192809767e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.61939383914023e-13,
+    "kkt_stationarity": 3.848388648475254e-05,
+    "complementarity": 1.041016946186372e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 7.441824934062424e-13,
+    "kkt_stationarity": 0.00015412605061015938,
+    "complementarity": 2.461607779818326e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 5.978550987606468e-13,
+    "kkt_stationarity": 7.06290006629029e-05,
+    "complementarity": 1.5283900666144506e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.3834046675451646e-13,
+    "kkt_stationarity": 6.356372625750353e-05,
+    "complementarity": 7.975052435667625e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.3259840154519225e-13,
+    "kkt_stationarity": 1.2350152631873668e-05,
+    "complementarity": 4.564203362056341e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 7.300826609935029e-13,
+    "kkt_stationarity": 9.813697663527132e-05,
+    "complementarity": 1.2490512257309774e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 6.072919944699606e-13,
+    "kkt_stationarity": 7.203033667435577e-05,
+    "complementarity": 2.340702529744474e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 4.126698982531707e-13,
+    "kkt_stationarity": 2.15620826462537e-05,
+    "complementarity": 8.89864504556025e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 2.0339285811132868e-13,
+    "kkt_stationarity": 5.603417591082405e-05,
+    "complementarity": 1.415537843769656e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 7.544520563840251e-13,
+    "kkt_stationarity": 0.0065254121977648405,
+    "complementarity": 3.7794714694836245e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 3.518296765037121e-13,
+    "kkt_stationarity": 5.3581764050736336e-05,
+    "complementarity": 6.019228093918509e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 1.9240165016753963e-13,
+    "kkt_stationarity": 8.604932367839435e-05,
+    "complementarity": 4.024223693347418e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 8.96949181594664e-13,
+    "kkt_stationarity": 8.608156592210259e-05,
+    "complementarity": 5.711519437375109e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.697353617189037e-13,
+    "kkt_stationarity": 9.396857771681866e-06,
+    "complementarity": 1.0127608253896601e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 9.984790771966345e-13,
+    "kkt_stationarity": 4.2021388030388795e-05,
+    "complementarity": 2.191179570847024e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 1.1252110354575962e-13,
+    "kkt_stationarity": 6.7945582475914534e-06,
+    "complementarity": 3.257697557592316e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 3.9873659929412497e-13,
+    "kkt_stationarity": 9.647468054642592e-05,
+    "complementarity": 5.21694601080395e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 3.502753642692369e-13,
+    "kkt_stationarity": 0.00011018134233919952,
+    "complementarity": 1.8167610560717832e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 5.047628981458274e-13,
+    "kkt_stationarity": 4.049127908767325e-05,
+    "complementarity": 1.7737899614781688e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 2.512989816239042e-13,
+    "kkt_stationarity": 0.00010036867612628342,
+    "complementarity": 1.3169446111662808e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 6.70019595361282e-13,
+    "kkt_stationarity": 7.38606120728319e-05,
+    "complementarity": 7.07590977369754e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "random",
+    "train_seed": null,
+    "success": false,
+    "feasibility": 6.015188347419098e-13,
+    "kkt_stationarity": 1.0850226636405411,
+    "complementarity": 2.0234729718855064e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.92828000631107e-13,
+    "kkt_stationarity": 0.0001036125867375226,
+    "complementarity": 1.709245358204914e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 2.1316282072803006e-14,
+    "kkt_stationarity": 2.9646640797853507e-06,
+    "complementarity": 6.171464669157768e-14
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 3.8952174818973617e-13,
+    "kkt_stationarity": 3.7994873046010014e-05,
+    "complementarity": 2.7109251799100315e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.1907809727727e-13,
+    "kkt_stationarity": 8.355043591379285e-05,
+    "complementarity": 1.0724709227478523e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 7.446265826160925e-13,
+    "kkt_stationarity": 0.009788473229449868,
+    "complementarity": 3.905021894982604e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.4994229736184934e-13,
+    "kkt_stationarity": 9.224897595094816e-05,
+    "complementarity": 9.306892781419447e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 3.7231329130804625e-13,
+    "kkt_stationarity": 9.052766807426949e-05,
+    "complementarity": 1.8443718101542244e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 9.704459458248493e-13,
+    "kkt_stationarity": 8.166358442585064e-05,
+    "complementarity": 5.110550094713033e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 9.44966327409702e-13,
+    "kkt_stationarity": 1.673753156201031e-05,
+    "complementarity": 1.5323731314251844e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 9.18709552877317e-13,
+    "kkt_stationarity": 1.6500398347045597e-05,
+    "complementarity": 1.4959929068141071e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 7.042699756709681e-13,
+    "kkt_stationarity": 2.623290970582559e-05,
+    "complementarity": 2.253461742762117e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 2.3253621250773904e-13,
+    "kkt_stationarity": 8.643969332666757e-05,
+    "complementarity": 6.300407388789385e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 2.76445533131664e-13,
+    "kkt_stationarity": 4.0791025423758676e-05,
+    "complementarity": 5.092485600849359e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 2,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 9.774403508799878e-13,
+    "kkt_stationarity": 4.194806873547563e-05,
+    "complementarity": 6.643710013777827e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 5.701161764903873e-12,
+    "kkt_stationarity": 1.0866316122730364,
+    "complementarity": 4.0395503312950943e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.160627563644994e-13,
+    "kkt_stationarity": 0.00010062402881069743,
+    "complementarity": 1.1964152058070526e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 7.845946115025981e-13,
+    "kkt_stationarity": 9.669315778271237e-05,
+    "complementarity": 6.265073240684117e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 6.833844601317196e-11,
+    "kkt_stationarity": 0.012236644564280835,
+    "complementarity": 1.0489597204150106e-10
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 1.5335510639147287e-12,
+    "kkt_stationarity": 9.454699007882539e-05,
+    "complementarity": 8.214536108276552e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 6.75182132425789e-13,
+    "kkt_stationarity": 6.67607288922234e-05,
+    "complementarity": 2.233367558569605e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 2.914263275144435e-11,
+    "kkt_stationarity": 0.007876354600300395,
+    "complementarity": 4.436475730993232e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 4.933831121434196e-13,
+    "kkt_stationarity": 9.995120963107729e-05,
+    "complementarity": 8.497175864553815e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 4.518607710224387e-13,
+    "kkt_stationarity": 6.665337981681674e-05,
+    "complementarity": 1.5878864307379025e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "base",
+    "train_seed": 97,
+    "success": false,
+    "feasibility": 7.13096248716738e-13,
+    "kkt_stationarity": 0.006455107404366639,
+    "complementarity": 3.5723863112866466e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": false,
+    "feasibility": 2.085831507514513e-12,
+    "kkt_stationarity": 0.00036939523705492583,
+    "complementarity": 6.90036327316725e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 5.6754601018838e-13,
+    "kkt_stationarity": 8.806748610223902e-05,
+    "complementarity": 4.531916556872691e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 5.221933996324424e-13,
+    "kkt_stationarity": 2.3085409270429125e-05,
+    "complementarity": 3.6342697924042164e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 8.357758929378178e-13,
+    "kkt_stationarity": 5.487205440718457e-05,
+    "complementarity": 1.970014041049999e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 9.407474799161264e-13,
+    "kkt_stationarity": 8.452647538241542e-05,
+    "complementarity": 5.816597742176583e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 4.745093207247919e-13,
+    "kkt_stationarity": 7.742851375625026e-05,
+    "complementarity": 8.790492882500471e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.846989559188387e-13,
+    "kkt_stationarity": 3.05049258000169e-05,
+    "complementarity": 2.9111191188675206e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 3.1308289294429414e-13,
+    "kkt_stationarity": 8.158777461797495e-05,
+    "complementarity": 2.297429777001121e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "random",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 6.324385459777204e-13,
+    "kkt_stationarity": 9.12941719902749e-05,
+    "complementarity": 6.679022673569899e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "base",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 5.555000903711971e-13,
+    "kkt_stationarity": 0.00010999336391881442,
+    "complementarity": 1.9266128130948834e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 6.145084441300241e-13,
+    "kkt_stationarity": 9.581570463046418e-05,
+    "complementarity": 8.115949262554957e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "regime",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 5.717093465307244e-13,
+    "kkt_stationarity": 0.00753708218434071,
+    "complementarity": 2.6721471612496733e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 2,
+    "variant": "shuffled",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 6.214473380339314e-13,
+    "kkt_stationarity": 7.39984311807218e-05,
+    "complementarity": 1.7135258450648172e-12
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 1,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": false,
+    "feasibility": 3.7525205165422904e-11,
+    "kkt_stationarity": 0.008978823970203303,
+    "complementarity": 5.727812952667957e-11
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 5,
+    "variant": "cyclic",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 5.387912338505885e-13,
+    "kkt_stationarity": 9.272225397183309e-05,
+    "complementarity": 5.690036912844386e-13
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 3,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 1.1897816065697953e-11,
+    "kkt_stationarity": 7.425250327330879e-05,
+    "complementarity": 3.4339240841433466e-11
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 4,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 7.120415368433441e-13,
+    "kkt_stationarity": 0.0001059506937206578,
+    "complementarity": 4.822253179079842e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "gs",
+    "train_seed": null,
+    "success": true,
+    "feasibility": 2.1799229088514949e-13,
+    "kkt_stationarity": 6.864027474362544e-05,
+    "complementarity": 7.55990193073954e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 3,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 7.706613125435524e-13,
+    "kkt_stationarity": 8.861415672911654e-05,
+    "complementarity": 2.7081780956288464e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 4,
+    "variant": "regime",
+    "train_seed": 83,
+    "success": true,
+    "feasibility": 5.556666238248908e-13,
+    "kkt_stationarity": 0.00011000802575722446,
+    "complementarity": 1.9271904058607958e-12
+  },
+  {
+    "condition": "heldout_ID",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 71,
+    "success": true,
+    "feasibility": 3.693156891415583e-13,
+    "kkt_stationarity": 9.417429242269959e-05,
+    "complementarity": 9.472536240750664e-13
+  },
+  {
+    "condition": "heldout_OOD",
+    "instance": 0,
+    "variant": "shuffled",
+    "train_seed": 97,
+    "success": true,
+    "feasibility": 9.034994974399524e-13,
+    "kkt_stationarity": 7.303951541592704e-05,
+    "complementarity": 1.7064105241262167e-12
+  }
+]

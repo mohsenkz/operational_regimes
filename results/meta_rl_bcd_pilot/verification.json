@@ -1,0 +1,1388 @@
+[
+  {
+    "job_id": 0,
+    "feasibility": 7.972511539833249e-13,
+    "kkt": 3.2781723476800126e-05,
+    "complementarity": 6.115211367696317e-12,
+    "success": true
+  },
+  {
+    "job_id": 1,
+    "feasibility": 7.972511539833249e-13,
+    "kkt": 3.2781723476800126e-05,
+    "complementarity": 6.115211367696317e-12,
+    "success": true
+  },
+  {
+    "job_id": 2,
+    "feasibility": 3.26183524634871e-13,
+    "kkt": 0.00011106816101824624,
+    "complementarity": 7.003342650456988e-13,
+    "success": true
+  },
+  {
+    "job_id": 3,
+    "feasibility": 8.743006318923108e-13,
+    "kkt": 6.127111803788665e-05,
+    "complementarity": 2.1073892197807253e-12,
+    "success": true
+  },
+  {
+    "job_id": 4,
+    "feasibility": 1.103006574965093e-13,
+    "kkt": 0.00033996818588183863,
+    "complementarity": 5.680745496038739e-13,
+    "success": false
+  },
+  {
+    "job_id": 5,
+    "feasibility": 3.1424862712015056e-13,
+    "kkt": 0.00010836878448317044,
+    "complementarity": 6.654577360577109e-13,
+    "success": true
+  },
+  {
+    "job_id": 6,
+    "feasibility": 4.4692027856285677e-13,
+    "kkt": 3.9553432723549165e-05,
+    "complementarity": 3.3291343005896433e-12,
+    "success": true
+  },
+  {
+    "job_id": 7,
+    "feasibility": 4.1627812308320244e-13,
+    "kkt": 2.7327023453094235e-05,
+    "complementarity": 1.949482306514552e-12,
+    "success": true
+  },
+  {
+    "job_id": 8,
+    "feasibility": 5.070943664975402e-13,
+    "kkt": 7.928790726385859e-05,
+    "complementarity": 8.445659304277105e-13,
+    "success": true
+  },
+  {
+    "job_id": 9,
+    "feasibility": 2.4291679778798425e-13,
+    "kkt": 4.850813544954313e-05,
+    "complementarity": 3.9136670065956935e-13,
+    "success": true
+  },
+  {
+    "job_id": 10,
+    "feasibility": 9.253153798738367e-13,
+    "kkt": 7.094208466140728e-05,
+    "complementarity": 1.490788568182148e-12,
+    "success": true
+  },
+  {
+    "job_id": 11,
+    "feasibility": 2.917110997202599e-13,
+    "kkt": 6.458835004241603e-05,
+    "complementarity": 6.56927937381289e-13,
+    "success": true
+  },
+  {
+    "job_id": 12,
+    "feasibility": 4.717892743144603e-13,
+    "kkt": 3.249461712528934e-05,
+    "complementarity": 2.477696333761408e-12,
+    "success": true
+  },
+  {
+    "job_id": 13,
+    "feasibility": 5.730971253115058e-13,
+    "kkt": 8.188278952969696e-05,
+    "complementarity": 4.52306408093662e-12,
+    "success": true
+  },
+  {
+    "job_id": 14,
+    "feasibility": 2.6743607328683083e-12,
+    "kkt": 0.02201232793241705,
+    "complementarity": 6.201725865469126e-12,
+    "success": false
+  },
+  {
+    "job_id": 15,
+    "feasibility": 2.309097357766632e-12,
+    "kkt": 0.026975736406514867,
+    "complementarity": 5.357214845252768e-12,
+    "success": false
+  },
+  {
+    "job_id": 16,
+    "feasibility": 9.735545702937998e-13,
+    "kkt": 0.00024642271922886705,
+    "complementarity": 1.993341015481097e-12,
+    "success": false
+  },
+  {
+    "job_id": 17,
+    "feasibility": 1.712519015484304e-13,
+    "kkt": 5.060930324063406e-05,
+    "complementarity": 2.5122544644137977e-13,
+    "success": true
+  },
+  {
+    "job_id": 18,
+    "feasibility": 6.005196340197472e-13,
+    "kkt": 3.0266317440460187e-05,
+    "complementarity": 4.6062074109662635e-12,
+    "success": true
+  },
+  {
+    "job_id": 19,
+    "feasibility": 4.93050045236032e-13,
+    "kkt": 6.47840107514952e-05,
+    "complementarity": 3.891307221118131e-12,
+    "success": true
+  },
+  {
+    "job_id": 20,
+    "feasibility": 8.022471575941381e-13,
+    "kkt": 4.663664025361669e-05,
+    "complementarity": 1.2925121170238834e-12,
+    "success": true
+  },
+  {
+    "job_id": 21,
+    "feasibility": 7.972511539833249e-13,
+    "kkt": 3.2781723476800126e-05,
+    "complementarity": 6.115211367696317e-12,
+    "success": true
+  },
+  {
+    "job_id": 22,
+    "feasibility": 1.103006574965093e-13,
+    "kkt": 0.0002874349868642801,
+    "complementarity": 5.680746467531748e-13,
+    "success": false
+  },
+  {
+    "job_id": 23,
+    "feasibility": 3.2468472355162703e-13,
+    "kkt": 5.3006181569559274e-05,
+    "complementarity": 1.460078008470351e-12,
+    "success": true
+  },
+  {
+    "job_id": 24,
+    "feasibility": 6.262768081910508e-13,
+    "kkt": 9.951337713770547e-05,
+    "complementarity": 6.639467359871502e-13,
+    "success": true
+  },
+  {
+    "job_id": 25,
+    "feasibility": 7.400191570638981e-13,
+    "kkt": 5.122040717103929e-05,
+    "complementarity": 1.8492409824647917e-12,
+    "success": true
+  },
+  {
+    "job_id": 26,
+    "feasibility": 7.334688412186097e-13,
+    "kkt": 0.00011296680848887908,
+    "complementarity": 1.135684864399257e-12,
+    "success": false
+  },
+  {
+    "job_id": 27,
+    "feasibility": 2.822186928597148e-13,
+    "kkt": 7.379024893017228e-05,
+    "complementarity": 2.16472526892469e-12,
+    "success": true
+  },
+  {
+    "job_id": 28,
+    "feasibility": 3.2651659154225854e-13,
+    "kkt": 0.00011108477224053281,
+    "complementarity": 7.001477558207517e-13,
+    "success": true
+  },
+  {
+    "job_id": 29,
+    "feasibility": 5.939138070232275e-13,
+    "kkt": 7.338556254876671e-05,
+    "complementarity": 1.7999081616859762e-12,
+    "success": true
+  },
+  {
+    "job_id": 30,
+    "feasibility": 6.037392807911601e-13,
+    "kkt": 3.1003720660116585e-05,
+    "complementarity": 4.4972883085007146e-12,
+    "success": true
+  },
+  {
+    "job_id": 31,
+    "feasibility": 8.109068971862143e-13,
+    "kkt": 3.983288821329811e-05,
+    "complementarity": 2.3454042393270583e-12,
+    "success": true
+  },
+  {
+    "job_id": 32,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 33,
+    "feasibility": 1.0811351813799774e-12,
+    "kkt": 0.014470422027039201,
+    "complementarity": 2.5047103853866205e-12,
+    "success": false
+  },
+  {
+    "job_id": 34,
+    "feasibility": 7.306932836570468e-13,
+    "kkt": 6.713269635771901e-05,
+    "complementarity": 2.3558015171232172e-12,
+    "success": true
+  },
+  {
+    "job_id": 35,
+    "feasibility": 5.411227022023013e-13,
+    "kkt": 9.563288989733465e-05,
+    "complementarity": 5.736698572228518e-13,
+    "success": true
+  },
+  {
+    "job_id": 36,
+    "feasibility": 3.6243230638888235e-13,
+    "kkt": 7.67710574882674e-05,
+    "complementarity": 2.7799810277538816e-12,
+    "success": true
+  },
+  {
+    "job_id": 37,
+    "feasibility": 5.865863350607015e-13,
+    "kkt": 0.00011097007023591621,
+    "complementarity": 6.97536648767161e-13,
+    "success": true
+  },
+  {
+    "job_id": 38,
+    "feasibility": 2.917110997202599e-13,
+    "kkt": 6.458835004241603e-05,
+    "complementarity": 6.56927937381289e-13,
+    "success": true
+  },
+  {
+    "job_id": 39,
+    "feasibility": 1.712519015484304e-13,
+    "kkt": 5.060930324063406e-05,
+    "complementarity": 2.5122544644137977e-13,
+    "success": true
+  },
+  {
+    "job_id": 40,
+    "feasibility": 3.991251773527438e-13,
+    "kkt": 8.114311344820102e-05,
+    "complementarity": 3.061427502264768e-12,
+    "success": true
+  },
+  {
+    "job_id": 41,
+    "feasibility": 3.6126657221302594e-13,
+    "kkt": 7.64991078776589e-05,
+    "complementarity": 2.771039483221862e-12,
+    "success": true
+  },
+  {
+    "job_id": 42,
+    "feasibility": 3.5060843117662444e-13,
+    "kkt": 0.7852591816972967,
+    "complementarity": 8.254109738380678e-13,
+    "success": false
+  },
+  {
+    "job_id": 43,
+    "feasibility": 9.580114479490476e-13,
+    "kkt": 0.0011013325211260553,
+    "complementarity": 2.365832043010019e-12,
+    "success": false
+  },
+  {
+    "job_id": 44,
+    "feasibility": 8.352207814255053e-13,
+    "kkt": 6.054719016113097e-05,
+    "complementarity": 3.3958452312152485e-12,
+    "success": true
+  },
+  {
+    "job_id": 45,
+    "feasibility": 3.613220833642572e-13,
+    "kkt": 7.649909260165622e-05,
+    "complementarity": 2.7714652729407866e-12,
+    "success": true
+  },
+  {
+    "job_id": 46,
+    "feasibility": 1.712519015484304e-13,
+    "kkt": 5.060930324063406e-05,
+    "complementarity": 2.5122544644137977e-13,
+    "success": true
+  },
+  {
+    "job_id": 47,
+    "feasibility": 2.491895578771164e-13,
+    "kkt": 6.234385103554008e-05,
+    "complementarity": 6.375216677523328e-13,
+    "success": true
+  },
+  {
+    "job_id": 48,
+    "feasibility": 3.2651659154225854e-13,
+    "kkt": 0.00011107804750931649,
+    "complementarity": 7.001477561687084e-13,
+    "success": true
+  },
+  {
+    "job_id": 49,
+    "feasibility": 4.4692027856285677e-13,
+    "kkt": 3.9553432723549165e-05,
+    "complementarity": 3.3291343005896433e-12,
+    "success": true
+  },
+  {
+    "job_id": 50,
+    "feasibility": 8.064660050877137e-13,
+    "kkt": 4.189708996338304e-05,
+    "complementarity": 2.3164588414605316e-12,
+    "success": true
+  },
+  {
+    "job_id": 51,
+    "feasibility": 5.855316231873076e-13,
+    "kkt": 6.012133079336124e-05,
+    "complementarity": 1.8877883483097843e-12,
+    "success": true
+  },
+  {
+    "job_id": 52,
+    "feasibility": 9.764966613090564e-13,
+    "kkt": 7.761496832969783e-05,
+    "complementarity": 3.1482933547275662e-12,
+    "success": true
+  },
+  {
+    "job_id": 53,
+    "feasibility": 3.791966740607222e-13,
+    "kkt": 7.317321026156787e-05,
+    "complementarity": 1.845157172410428e-12,
+    "success": true
+  },
+  {
+    "job_id": 54,
+    "feasibility": 6.233347171757941e-13,
+    "kkt": 4.515938167970468e-05,
+    "complementarity": 4.643255441413133e-12,
+    "success": true
+  },
+  {
+    "job_id": 55,
+    "feasibility": 1.4127587988355117e-13,
+    "kkt": 2.4560090017722302e-05,
+    "complementarity": 2.0725085285877958e-13,
+    "success": true
+  },
+  {
+    "job_id": 56,
+    "feasibility": 3.1163960301228144e-13,
+    "kkt": 0.7846199664333997,
+    "complementarity": 7.396981229206778e-13,
+    "success": false
+  },
+  {
+    "job_id": 57,
+    "feasibility": 2.491895578771164e-13,
+    "kkt": 6.234385103554008e-05,
+    "complementarity": 6.375216677523328e-13,
+    "success": true
+  },
+  {
+    "job_id": 58,
+    "feasibility": 5.201949981881171e-13,
+    "kkt": 9.057730592854085e-05,
+    "complementarity": 2.4202489483136773e-12,
+    "success": true
+  },
+  {
+    "job_id": 59,
+    "feasibility": 1.7352785874891197e-13,
+    "kkt": 6.155108248162127e-05,
+    "complementarity": 5.752134799893136e-13,
+    "success": true
+  },
+  {
+    "job_id": 60,
+    "feasibility": 4.717892743144603e-13,
+    "kkt": 3.249461712528934e-05,
+    "complementarity": 2.477696333761408e-12,
+    "success": true
+  },
+  {
+    "job_id": 61,
+    "feasibility": 6.808997810026085e-13,
+    "kkt": 6.122960975751823e-05,
+    "complementarity": 1.641221333647578e-12,
+    "success": true
+  },
+  {
+    "job_id": 62,
+    "feasibility": 1.4127587988355117e-13,
+    "kkt": 2.4560090017722302e-05,
+    "complementarity": 2.0725085285877958e-13,
+    "success": true
+  },
+  {
+    "job_id": 63,
+    "feasibility": 5.237477118669176e-13,
+    "kkt": 9.122013440587828e-05,
+    "complementarity": 2.0147606128025625e-12,
+    "success": true
+  },
+  {
+    "job_id": 64,
+    "feasibility": 4.576339307504895e-13,
+    "kkt": 9.708817026545597e-05,
+    "complementarity": 1.1301480548821238e-12,
+    "success": true
+  },
+  {
+    "job_id": 65,
+    "feasibility": 4.549138843401579e-13,
+    "kkt": 3.9788885858521465e-05,
+    "complementarity": 3.0695969132950175e-12,
+    "success": true
+  },
+  {
+    "job_id": 66,
+    "feasibility": 4.93050045236032e-13,
+    "kkt": 6.47840107514952e-05,
+    "complementarity": 3.891307221118131e-12,
+    "success": true
+  },
+  {
+    "job_id": 67,
+    "feasibility": 7.366329768387914e-13,
+    "kkt": 0.00020870493565261494,
+    "complementarity": 2.4750872618590333e-12,
+    "success": false
+  },
+  {
+    "job_id": 68,
+    "feasibility": 1.0919043447188415e-13,
+    "kkt": 0.0003044264417166551,
+    "complementarity": 5.623568340109235e-13,
+    "success": false
+  },
+  {
+    "job_id": 69,
+    "feasibility": 2.9733993045510942e-12,
+    "kkt": 0.014181874366989174,
+    "complementarity": 7.338467420631427e-12,
+    "success": false
+  },
+  {
+    "job_id": 70,
+    "feasibility": 6.728506640740761e-13,
+    "kkt": 0.019207056464799185,
+    "complementarity": 1.558105684831667e-12,
+    "success": false
+  },
+  {
+    "job_id": 71,
+    "feasibility": 7.83484388477973e-13,
+    "kkt": 4.714392301660467e-05,
+    "complementarity": 4.363311822035166e-12,
+    "success": true
+  },
+  {
+    "job_id": 72,
+    "feasibility": 7.309708394132031e-13,
+    "kkt": 6.714557958531486e-05,
+    "complementarity": 2.3566963485615638e-12,
+    "success": true
+  },
+  {
+    "job_id": 73,
+    "feasibility": 8.03301869467532e-13,
+    "kkt": 8.970121495455174e-05,
+    "complementarity": 5.983841219710122e-12,
+    "success": true
+  },
+  {
+    "job_id": 74,
+    "feasibility": 4.4692027856285677e-13,
+    "kkt": 3.9539417585832126e-05,
+    "complementarity": 3.329134293682219e-12,
+    "success": true
+  },
+  {
+    "job_id": 75,
+    "feasibility": 3.562150574509815e-13,
+    "kkt": 0.00010252555570083866,
+    "complementarity": 5.964506889727306e-13,
+    "success": true
+  },
+  {
+    "job_id": 76,
+    "feasibility": 1.2140288774276087e-13,
+    "kkt": 0.00023481342705400365,
+    "complementarity": 6.252543396241974e-13,
+    "success": false
+  },
+  {
+    "job_id": 77,
+    "feasibility": 3.1424862712015056e-13,
+    "kkt": 0.00010836878448317044,
+    "complementarity": 6.654577360577109e-13,
+    "success": true
+  },
+  {
+    "job_id": 78,
+    "feasibility": 2.9554136915521667e-13,
+    "kkt": 5.507685161187936e-05,
+    "complementarity": 4.76150949903939e-13,
+    "success": true
+  },
+  {
+    "job_id": 79,
+    "feasibility": 5.667133429199112e-13,
+    "kkt": 0.00018304597447638127,
+    "complementarity": 1.904148699777851e-12,
+    "success": false
+  },
+  {
+    "job_id": 80,
+    "feasibility": 6.26110274737357e-13,
+    "kkt": 9.951778019978708e-05,
+    "complementarity": 6.637701859545467e-13,
+    "success": true
+  },
+  {
+    "job_id": 81,
+    "feasibility": 2.917110997202599e-13,
+    "kkt": 6.458835004241603e-05,
+    "complementarity": 6.56927937381289e-13,
+    "success": true
+  },
+  {
+    "job_id": 82,
+    "feasibility": 5.411227022023013e-13,
+    "kkt": 9.563302805754015e-05,
+    "complementarity": 5.736698572200264e-13,
+    "success": true
+  },
+  {
+    "job_id": 83,
+    "feasibility": 2.7611246622427643e-13,
+    "kkt": 0.7846182564213047,
+    "complementarity": 7.400439261511494e-13,
+    "success": false
+  },
+  {
+    "job_id": 84,
+    "feasibility": 6.005196340197472e-13,
+    "kkt": 3.0266317440460187e-05,
+    "complementarity": 4.6062074109662635e-12,
+    "success": true
+  },
+  {
+    "job_id": 85,
+    "feasibility": 5.730971253115058e-13,
+    "kkt": 8.188278952969696e-05,
+    "complementarity": 4.52306408093662e-12,
+    "success": true
+  },
+  {
+    "job_id": 86,
+    "feasibility": 8.349987368205802e-13,
+    "kkt": 6.0550403113257545e-05,
+    "complementarity": 3.393223518353212e-12,
+    "success": true
+  },
+  {
+    "job_id": 87,
+    "feasibility": 4.1194825328716433e-13,
+    "kkt": 0.0001023021756280107,
+    "complementarity": 8.445653726412896e-13,
+    "success": true
+  },
+  {
+    "job_id": 88,
+    "feasibility": 9.580669591002788e-13,
+    "kkt": 0.00024455447254806417,
+    "complementarity": 1.6940047124091684e-12,
+    "success": false
+  },
+  {
+    "job_id": 89,
+    "feasibility": 8.275602425555917e-13,
+    "kkt": 0.0001420342012258824,
+    "complementarity": 1.1395523495843028e-12,
+    "success": false
+  },
+  {
+    "job_id": 90,
+    "feasibility": 5.35460564776713e-13,
+    "kkt": 4.909050004298088e-05,
+    "complementarity": 1.7939380633554286e-12,
+    "success": true
+  },
+  {
+    "job_id": 91,
+    "feasibility": 4.71733763163229e-13,
+    "kkt": 3.2488892756254995e-05,
+    "complementarity": 2.478324790406122e-12,
+    "success": true
+  },
+  {
+    "job_id": 92,
+    "feasibility": 7.095990461891688e-13,
+    "kkt": 7.892769059936189e-05,
+    "complementarity": 4.788120481727257e-12,
+    "success": true
+  },
+  {
+    "job_id": 93,
+    "feasibility": 7.650546862691954e-13,
+    "kkt": 4.505939186416619e-05,
+    "complementarity": 1.878142893339374e-12,
+    "success": true
+  },
+  {
+    "job_id": 94,
+    "feasibility": 1.3322676295501878e-15,
+    "kkt": 0.015074967910288336,
+    "complementarity": 5.448782809850574e-15,
+    "success": false
+  },
+  {
+    "job_id": 95,
+    "feasibility": 7.48179296294893e-13,
+    "kkt": 8.625604664424842e-05,
+    "complementarity": 4.235178479774e-12,
+    "success": true
+  },
+  {
+    "job_id": 96,
+    "feasibility": 3.7031488986372096e-13,
+    "kkt": 9.986876655759813e-05,
+    "complementarity": 5.654906998104891e-13,
+    "success": true
+  },
+  {
+    "job_id": 97,
+    "feasibility": 4.4692027856285677e-13,
+    "kkt": 3.9539209069738845e-05,
+    "complementarity": 3.3291342935319093e-12,
+    "success": true
+  },
+  {
+    "job_id": 98,
+    "feasibility": 6.146749775837179e-13,
+    "kkt": 5.076857473893956e-05,
+    "complementarity": 1.82441697780476e-12,
+    "success": true
+  },
+  {
+    "job_id": 99,
+    "feasibility": 7.650546862691954e-13,
+    "kkt": 4.505939186416619e-05,
+    "complementarity": 1.878142893339374e-12,
+    "success": true
+  },
+  {
+    "job_id": 100,
+    "feasibility": 3.1163960301228144e-13,
+    "kkt": 0.7846199664333997,
+    "complementarity": 7.396981229206778e-13,
+    "success": false
+  },
+  {
+    "job_id": 101,
+    "feasibility": 5.639932965095795e-13,
+    "kkt": 0.02199699103602274,
+    "complementarity": 2.9044049079743103e-12,
+    "success": false
+  },
+  {
+    "job_id": 102,
+    "feasibility": 7.400191570638981e-13,
+    "kkt": 5.1219802387670194e-05,
+    "complementarity": 1.850183671183001e-12,
+    "success": true
+  },
+  {
+    "job_id": 103,
+    "feasibility": 4.996003610813204e-13,
+    "kkt": 0.714248830997489,
+    "complementarity": 1.1727432304713207e-12,
+    "success": false
+  },
+  {
+    "job_id": 104,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 105,
+    "feasibility": 2.917110997202599e-13,
+    "kkt": 6.458835004241603e-05,
+    "complementarity": 6.56927937381289e-13,
+    "success": true
+  },
+  {
+    "job_id": 106,
+    "feasibility": 2.7611246622427643e-13,
+    "kkt": 0.7846182564213047,
+    "complementarity": 7.400439261511494e-13,
+    "success": false
+  },
+  {
+    "job_id": 107,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 108,
+    "feasibility": 1.2241874181029289e-12,
+    "kkt": 0.0002690104138511895,
+    "complementarity": 4.11331368093754e-12,
+    "success": false
+  },
+  {
+    "job_id": 109,
+    "feasibility": 6.057376822354854e-13,
+    "kkt": 4.8510553743330576e-05,
+    "complementarity": 2.330145202147834e-12,
+    "success": true
+  },
+  {
+    "job_id": 110,
+    "feasibility": 5.7637228323415e-13,
+    "kkt": 4.437590892503174e-05,
+    "complementarity": 9.286013716705583e-13,
+    "success": true
+  },
+  {
+    "job_id": 111,
+    "feasibility": 4.819478149897805e-13,
+    "kkt": 0.0001025265491642613,
+    "complementarity": 5.966584957214863e-13,
+    "success": true
+  },
+  {
+    "job_id": 112,
+    "feasibility": 8.595901768160275e-13,
+    "kkt": 8.901302942465605e-05,
+    "complementarity": 6.403135924854204e-12,
+    "success": true
+  },
+  {
+    "job_id": 113,
+    "feasibility": 8.896772207833692e-13,
+    "kkt": 7.954959375688908e-05,
+    "complementarity": 3.279768505139733e-12,
+    "success": true
+  },
+  {
+    "job_id": 114,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 115,
+    "feasibility": 7.972511539833249e-13,
+    "kkt": 3.2781723476800126e-05,
+    "complementarity": 6.115211367696317e-12,
+    "success": true
+  },
+  {
+    "job_id": 116,
+    "feasibility": 1.7773560401224131e-12,
+    "kkt": 0.015498261907964179,
+    "complementarity": 4.1194740202596706e-12,
+    "success": false
+  },
+  {
+    "job_id": 117,
+    "feasibility": 7.334688412186097e-13,
+    "kkt": 0.00011296680848887908,
+    "complementarity": 1.135684864399257e-12,
+    "success": false
+  },
+  {
+    "job_id": 118,
+    "feasibility": 2.2737367544323206e-13,
+    "kkt": 3.9867024276496466e-05,
+    "complementarity": 1.0224785625343719e-12,
+    "success": true
+  },
+  {
+    "job_id": 119,
+    "feasibility": 1.2140288774276087e-13,
+    "kkt": 0.00025128584760780726,
+    "complementarity": 6.252544369330184e-13,
+    "success": false
+  },
+  {
+    "job_id": 120,
+    "feasibility": 2.6817437159820656e-13,
+    "kkt": 9.409768605128654e-05,
+    "complementarity": 1.9215609936407145e-12,
+    "success": true
+  },
+  {
+    "job_id": 121,
+    "feasibility": 6.713518629908322e-13,
+    "kkt": 4.674440438079408e-05,
+    "complementarity": 3.800291596823854e-12,
+    "success": true
+  },
+  {
+    "job_id": 122,
+    "feasibility": 8.307243781757734e-13,
+    "kkt": 4.0544516553775445e-05,
+    "complementarity": 6.371957790816611e-12,
+    "success": true
+  },
+  {
+    "job_id": 123,
+    "feasibility": 8.307243781757734e-13,
+    "kkt": 4.0544516553775445e-05,
+    "complementarity": 6.371957790816611e-12,
+    "success": true
+  },
+  {
+    "job_id": 124,
+    "feasibility": 9.591216709736727e-13,
+    "kkt": 6.131259280062196e-05,
+    "complementarity": 2.3118394675788555e-12,
+    "success": true
+  },
+  {
+    "job_id": 125,
+    "feasibility": 7.400191570638981e-13,
+    "kkt": 5.1219937895314484e-05,
+    "complementarity": 1.850183671182971e-12,
+    "success": true
+  },
+  {
+    "job_id": 126,
+    "feasibility": 9.580669591002788e-13,
+    "kkt": 0.0002445541196436918,
+    "complementarity": 1.4092466860200893e-12,
+    "success": false
+  },
+  {
+    "job_id": 127,
+    "feasibility": 3.613220833642572e-13,
+    "kkt": 7.649909260165622e-05,
+    "complementarity": 2.7714652729407866e-12,
+    "success": true
+  },
+  {
+    "job_id": 128,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 129,
+    "feasibility": 2.7439162053610744e-13,
+    "kkt": 7.502895050026659e-06,
+    "complementarity": 1.3375544081022775e-12,
+    "success": true
+  },
+  {
+    "job_id": 130,
+    "feasibility": 3.924582880898697e-12,
+    "kkt": 0.011240197672018358,
+    "complementarity": 9.10771464548466e-12,
+    "success": false
+  },
+  {
+    "job_id": 131,
+    "feasibility": 8.352207814255053e-13,
+    "kkt": 6.054719016113097e-05,
+    "complementarity": 3.3958452312152485e-12,
+    "success": true
+  },
+  {
+    "job_id": 132,
+    "feasibility": 3.1163960301228144e-13,
+    "kkt": 0.7846199664333997,
+    "complementarity": 7.396981229206778e-13,
+    "success": false
+  },
+  {
+    "job_id": 133,
+    "feasibility": 3.016642491360244e-12,
+    "kkt": 0.6672528605635071,
+    "complementarity": 7.013701480902941e-12,
+    "success": false
+  },
+  {
+    "job_id": 134,
+    "feasibility": 9.32920407592519e-13,
+    "kkt": 7.593732451915969e-05,
+    "complementarity": 3.181116894351041e-12,
+    "success": true
+  },
+  {
+    "job_id": 135,
+    "feasibility": 9.388601007742636e-13,
+    "kkt": 6.07492760815731e-05,
+    "complementarity": 1.8027209714758133e-12,
+    "success": true
+  },
+  {
+    "job_id": 136,
+    "feasibility": 6.005196340197472e-13,
+    "kkt": 3.0266317440460187e-05,
+    "complementarity": 4.6062074109662635e-12,
+    "success": true
+  },
+  {
+    "job_id": 137,
+    "feasibility": 5.695999227839366e-13,
+    "kkt": 0.027013069685524693,
+    "complementarity": 1.406163301556299e-12,
+    "success": false
+  },
+  {
+    "job_id": 138,
+    "feasibility": 5.232481115058363e-13,
+    "kkt": 3.027524298652892e-05,
+    "complementarity": 4.129639493643856e-12,
+    "success": true
+  },
+  {
+    "job_id": 139,
+    "feasibility": 6.26110274737357e-13,
+    "kkt": 9.951778019978708e-05,
+    "complementarity": 6.637701859545467e-13,
+    "success": true
+  },
+  {
+    "job_id": 140,
+    "feasibility": 6.157852006083431e-13,
+    "kkt": 4.483456369708261e-05,
+    "complementarity": 3.682681612748119e-12,
+    "success": true
+  },
+  {
+    "job_id": 141,
+    "feasibility": 4.4692027856285677e-13,
+    "kkt": 3.9553432723549165e-05,
+    "complementarity": 3.3291343005896433e-12,
+    "success": true
+  },
+  {
+    "job_id": 142,
+    "feasibility": 7.930323064897493e-13,
+    "kkt": 0.02020872545687452,
+    "complementarity": 1.8371786127226546e-12,
+    "success": false
+  },
+  {
+    "job_id": 143,
+    "feasibility": 7.696621118213898e-13,
+    "kkt": 4.0071409986038815e-05,
+    "complementarity": 1.4929027696651116e-12,
+    "success": true
+  },
+  {
+    "job_id": 144,
+    "feasibility": 5.916378498227459e-13,
+    "kkt": 0.7852582143534681,
+    "complementarity": 3.041669620663117e-12,
+    "success": false
+  },
+  {
+    "job_id": 145,
+    "feasibility": 2.491895578771164e-13,
+    "kkt": 6.234385103554008e-05,
+    "complementarity": 6.375216677523328e-13,
+    "success": true
+  },
+  {
+    "job_id": 146,
+    "feasibility": 4.71733763163229e-13,
+    "kkt": 3.2488892756254995e-05,
+    "complementarity": 2.478324790406122e-12,
+    "success": true
+  },
+  {
+    "job_id": 147,
+    "feasibility": 6.146749775837179e-13,
+    "kkt": 5.076857473893956e-05,
+    "complementarity": 1.82441697780476e-12,
+    "success": true
+  },
+  {
+    "job_id": 148,
+    "feasibility": 2.4291679778798425e-13,
+    "kkt": 4.850813544954313e-05,
+    "complementarity": 3.9136670065956935e-13,
+    "success": true
+  },
+  {
+    "job_id": 149,
+    "feasibility": 9.388601007742636e-13,
+    "kkt": 6.067902828421623e-05,
+    "complementarity": 1.6198129902445336e-12,
+    "success": true
+  },
+  {
+    "job_id": 150,
+    "feasibility": 2.917110997202599e-13,
+    "kkt": 6.458835004241603e-05,
+    "complementarity": 6.56927937381289e-13,
+    "success": true
+  },
+  {
+    "job_id": 151,
+    "feasibility": 9.960365865424592e-13,
+    "kkt": 3.955808247857462e-05,
+    "complementarity": 3.4951856851603234e-12,
+    "success": true
+  },
+  {
+    "job_id": 152,
+    "feasibility": 7.351341757555474e-13,
+    "kkt": 0.6694402218515654,
+    "complementarity": 1.7204697001355438e-12,
+    "success": false
+  },
+  {
+    "job_id": 153,
+    "feasibility": 7.696621118213898e-13,
+    "kkt": 4.0071409986038815e-05,
+    "complementarity": 1.4929027696651116e-12,
+    "success": true
+  },
+  {
+    "job_id": 154,
+    "feasibility": 4.93050045236032e-13,
+    "kkt": 6.47840107514952e-05,
+    "complementarity": 3.891307221118131e-12,
+    "success": true
+  },
+  {
+    "job_id": 155,
+    "feasibility": 7.48179296294893e-13,
+    "kkt": 8.625604664424842e-05,
+    "complementarity": 4.235178479774e-12,
+    "success": true
+  },
+  {
+    "job_id": 156,
+    "feasibility": 9.744982598647312e-13,
+    "kkt": 0.0002465312303542855,
+    "complementarity": 1.4326453465383536e-12,
+    "success": false
+  },
+  {
+    "job_id": 157,
+    "feasibility": 1.712519015484304e-13,
+    "kkt": 5.060930324063406e-05,
+    "complementarity": 2.5122544644137977e-13,
+    "success": true
+  },
+  {
+    "job_id": 158,
+    "feasibility": 9.784395516021505e-13,
+    "kkt": 3.843115904578198e-05,
+    "complementarity": 5.443094922192698e-12,
+    "success": true
+  },
+  {
+    "job_id": 159,
+    "feasibility": 5.174194406265542e-13,
+    "kkt": 4.515681201811006e-05,
+    "complementarity": 1.9904173321140025e-12,
+    "success": true
+  },
+  {
+    "job_id": 160,
+    "feasibility": 3.6742830999969556e-13,
+    "kkt": 0.00010264605292858997,
+    "complementarity": 5.940260734481638e-13,
+    "success": true
+  },
+  {
+    "job_id": 161,
+    "feasibility": 5.185851748024106e-13,
+    "kkt": 5.736126851940693e-05,
+    "complementarity": 1.156365236479621e-12,
+    "success": true
+  },
+  {
+    "job_id": 162,
+    "feasibility": 2.7911006839076435e-13,
+    "kkt": 7.520798868576595e-05,
+    "complementarity": 8.064057334694309e-13,
+    "success": true
+  },
+  {
+    "job_id": 163,
+    "feasibility": 5.7637228323415e-13,
+    "kkt": 4.437590892503174e-05,
+    "complementarity": 9.286013716705583e-13,
+    "success": true
+  },
+  {
+    "job_id": 164,
+    "feasibility": 8.349987368205802e-13,
+    "kkt": 6.0550403113257545e-05,
+    "complementarity": 3.393223518353212e-12,
+    "success": true
+  },
+  {
+    "job_id": 165,
+    "feasibility": 6.755707104844078e-13,
+    "kkt": 0.00010737053409970443,
+    "complementarity": 5.1818542232088666e-12,
+    "success": true
+  },
+  {
+    "job_id": 166,
+    "feasibility": 8.024136910478319e-13,
+    "kkt": 4.664660636111151e-05,
+    "complementarity": 1.2927804215521728e-12,
+    "success": true
+  },
+  {
+    "job_id": 167,
+    "feasibility": 3.6742830999969556e-13,
+    "kkt": 0.00010264605292858997,
+    "complementarity": 5.940260734481638e-13,
+    "success": true
+  },
+  {
+    "job_id": 168,
+    "feasibility": 7.427392034742297e-14,
+    "kkt": 0.6672684735502834,
+    "complementarity": 5.470126363033912e-13,
+    "success": false
+  },
+  {
+    "job_id": 169,
+    "feasibility": 6.221689829999377e-13,
+    "kkt": 8.979797005981283e-05,
+    "complementarity": 1.131702126678548e-12,
+    "success": true
+  },
+  {
+    "job_id": 170,
+    "feasibility": 7.295830606324216e-13,
+    "kkt": 6.70808954053026e-05,
+    "complementarity": 2.3522220230600056e-12,
+    "success": true
+  },
+  {
+    "job_id": 171,
+    "feasibility": 7.531752999057062e-13,
+    "kkt": 0.6694386877406533,
+    "complementarity": 1.7627298026416096e-12,
+    "success": false
+  },
+  {
+    "job_id": 172,
+    "feasibility": 5.232481115058363e-13,
+    "kkt": 3.027524298652892e-05,
+    "complementarity": 4.129639493643856e-12,
+    "success": true
+  },
+  {
+    "job_id": 173,
+    "feasibility": 1.620370504440416e-13,
+    "kkt": 6.311127984537368e-05,
+    "complementarity": 9.065088446883472e-13,
+    "success": true
+  },
+  {
+    "job_id": 174,
+    "feasibility": 8.314460231417797e-13,
+    "kkt": 7.161132530653092e-05,
+    "complementarity": 2.6806370985487505e-12,
+    "success": true
+  },
+  {
+    "job_id": 175,
+    "feasibility": 5.667688540711424e-13,
+    "kkt": 0.0001830864767286,
+    "complementarity": 1.9043352336462233e-12,
+    "success": false
+  },
+  {
+    "job_id": 176,
+    "feasibility": 8.896772207833692e-13,
+    "kkt": 7.954959375688908e-05,
+    "complementarity": 3.279768505139733e-12,
+    "success": true
+  },
+  {
+    "job_id": 177,
+    "feasibility": 9.732215033864122e-13,
+    "kkt": 0.0002463868384530721,
+    "complementarity": 1.4305603177483611e-12,
+    "success": false
+  },
+  {
+    "job_id": 178,
+    "feasibility": 1.712519015484304e-13,
+    "kkt": 5.060930324063406e-05,
+    "complementarity": 2.5122544644137977e-13,
+    "success": true
+  },
+  {
+    "job_id": 179,
+    "feasibility": 4.885869486770389e-12,
+    "kkt": 0.6672528735133483,
+    "complementarity": 1.1359649120961554e-11,
+    "success": false
+  },
+  {
+    "job_id": 180,
+    "feasibility": 9.253153798738367e-13,
+    "kkt": 7.094208466140728e-05,
+    "complementarity": 1.490788568182148e-12,
+    "success": true
+  },
+  {
+    "job_id": 181,
+    "feasibility": 8.022471575941381e-13,
+    "kkt": 4.663664025361669e-05,
+    "complementarity": 1.2925121170238834e-12,
+    "success": true
+  },
+  {
+    "job_id": 182,
+    "feasibility": 9.168776848866855e-13,
+    "kkt": 0.00011071453010946808,
+    "complementarity": 4.123114819258372e-12,
+    "success": true
+  },
+  {
+    "job_id": 183,
+    "feasibility": 9.124923039394162e-13,
+    "kkt": 4.276779112288853e-05,
+    "complementarity": 2.322661439841409e-12,
+    "success": true
+  },
+  {
+    "job_id": 184,
+    "feasibility": 2.682853939006691e-13,
+    "kkt": 9.41011465322994e-05,
+    "complementarity": 1.9215609936335466e-12,
+    "success": true
+  },
+  {
+    "job_id": 185,
+    "feasibility": 8.515410598874951e-13,
+    "kkt": 6.945887227421327e-05,
+    "complementarity": 1.968981172429862e-12,
+    "success": true
+  },
+  {
+    "job_id": 186,
+    "feasibility": 7.972511539833249e-13,
+    "kkt": 3.2781723476800126e-05,
+    "complementarity": 6.115211367696317e-12,
+    "success": true
+  },
+  {
+    "job_id": 187,
+    "feasibility": 3.6742830999969556e-13,
+    "kkt": 0.00010264605292858997,
+    "complementarity": 5.940260734481638e-13,
+    "success": true
+  },
+  {
+    "job_id": 188,
+    "feasibility": 1.4228618283596006e-12,
+    "kkt": 0.014182203836749648,
+    "complementarity": 3.297238671836657e-12,
+    "success": false
+  },
+  {
+    "job_id": 189,
+    "feasibility": 4.71733763163229e-13,
+    "kkt": 3.2488892756254995e-05,
+    "complementarity": 2.478324790406122e-12,
+    "success": true
+  },
+  {
+    "job_id": 190,
+    "feasibility": 9.224288000098113e-13,
+    "kkt": 6.0782218779031894e-05,
+    "complementarity": 2.223396027533689e-12,
+    "success": true
+  },
+  {
+    "job_id": 191,
+    "feasibility": 6.157852006083431e-13,
+    "kkt": 4.486311688745026e-05,
+    "complementarity": 3.682681682898197e-12,
+    "success": true
+  },
+  {
+    "job_id": 192,
+    "feasibility": 2.9953817204386723e-13,
+    "kkt": 8.023868487255781e-05,
+    "complementarity": 1.6955839831537146e-12,
+    "success": true
+  },
+  {
+    "job_id": 193,
+    "feasibility": 6.157852006083431e-13,
+    "kkt": 4.486311688745026e-05,
+    "complementarity": 3.682681682898197e-12,
+    "success": true
+  },
+  {
+    "job_id": 194,
+    "feasibility": 5.939138070232275e-13,
+    "kkt": 7.338556254876671e-05,
+    "complementarity": 1.7999081616859762e-12,
+    "success": true
+  },
+  {
+    "job_id": 195,
+    "feasibility": 1.4127587988355117e-13,
+    "kkt": 2.4560090017722302e-05,
+    "complementarity": 2.0725085285877958e-13,
+    "success": true
+  },
+  {
+    "job_id": 196,
+    "feasibility": 8.307243781757734e-13,
+    "kkt": 4.0544516553775445e-05,
+    "complementarity": 6.371957790816611e-12,
+    "success": true
+  },
+  {
+    "job_id": 197,
+    "feasibility": 3.7403413699621524e-13,
+    "kkt": 3.693796664727689e-05,
+    "complementarity": 6.026115676098502e-13,
+    "success": true
+  }
+]

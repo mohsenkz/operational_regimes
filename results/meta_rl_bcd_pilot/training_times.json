@@ -1,0 +1,74 @@
+[
+  {
+    "algorithm": "reptile",
+    "variant": "base",
+    "seed": 113,
+    "seconds": 7.386895779
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "base",
+    "seed": 113,
+    "seconds": 7.311008826999995
+  },
+  {
+    "algorithm": "reptile",
+    "variant": "regime",
+    "seed": 113,
+    "seconds": 10.347933493
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "regime",
+    "seed": 113,
+    "seconds": 10.056970635000027
+  },
+  {
+    "algorithm": "reptile",
+    "variant": "shuffled",
+    "seed": 113,
+    "seconds": 9.924701253999984
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "shuffled",
+    "seed": 113,
+    "seconds": 10.367252186999991
+  },
+  {
+    "algorithm": "reptile",
+    "variant": "base",
+    "seed": 127,
+    "seconds": 8.409043520000012
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "base",
+    "seed": 127,
+    "seconds": 6.757461455999987
+  },
+  {
+    "algorithm": "reptile",
+    "variant": "regime",
+    "seed": 127,
+    "seconds": 9.829865466000001
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "regime",
+    "seed": 127,
+    "seconds": 9.418171979999983
+  },
+  {
+    "algorithm": "reptile",
+    "variant": "shuffled",
+    "seed": 127,
+    "seconds": 10.689683244000008
+  },
+  {
+    "algorithm": "pooled",
+    "variant": "shuffled",
+    "seed": 127,
+    "seconds": 10.583757423999998
+  }
+]

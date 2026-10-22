@@ -1,0 +1,47 @@
+{
+  "methods": {
+    "baseline": {
+      "n": 36,
+      "success": 36,
+      "median_time": 0.040873081999052374,
+      "median_qps": 7.0,
+      "actions": 0
+    },
+    "conditioning": {
+      "n": 36,
+      "success": 34,
+      "median_time": 0.03368744900035381,
+      "median_qps": 6.5,
+      "actions": 37
+    },
+    "signature": {
+      "n": 36,
+      "success": 34,
+      "median_time": 0.03638617399974464,
+      "median_qps": 7.0,
+      "actions": 71
+    },
+    "shuffled": {
+      "n": 36,
+      "success": 34,
+      "median_time": 0.03825466100079211,
+      "median_qps": 7.0,
+      "actions": 123
+    }
+  },
+  "selected_strength": {
+    "generic:baseline": 0.0,
+    "generic:conditioning": 0.01,
+    "generic:signature": 0.001,
+    "generic:shuffled": 0.01,
+    "correlated:baseline": 0.0,
+    "correlated:conditioning": 0.01,
+    "correlated:signature": 0.001,
+    "correlated:shuffled": 0.01,
+    "opposed:baseline": 0.0,
+    "opposed:conditioning": 0.01,
+    "opposed:signature": 0.001,
+    "opposed:shuffled": 0.001
+  },
+  "wall_time": 10.440387053999075
+}

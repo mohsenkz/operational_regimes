@@ -1,0 +1,58 @@
+{
+  "config": {
+    "families": [
+      "generic",
+      "correlated",
+      "opposed"
+    ],
+    "methods": [
+      "baseline",
+      "history",
+      "signature",
+      "random"
+    ],
+    "calibration_seeds": [
+      41,
+      52,
+      63
+    ],
+    "test_seeds": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212
+    ],
+    "factors": [
+      2.0,
+      3.0
+    ],
+    "initial_rho": 1.0,
+    "baseline_multiplier": 5.0,
+    "progress_threshold": 0.5,
+    "maxouter": 60,
+    "inner_method": "L-BFGS-B",
+    "inner_maxiter": 400,
+    "inner_gtol": 1e-07,
+    "inner_ftol": 1e-15,
+    "evaluation_budget": 20000,
+    "success": {
+      "feasibility": 1e-06,
+      "stationarity": 0.0001,
+      "complementarity": 1e-05
+    }
+  },
+  "python": "3.11.16",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "source_sha256": "5b29eb0e36ade67637e4abef3884692087acd3601b4d9e0f9436126e1fdb48fb",
+  "problem_source_sha256": "1d00f79bbaac021b6a246a0548e429de7e82611a7da9ea4c996e29fa114c1583",
+  "random_control": "Bernoulli(0.5), not a matched permutation; no regime labels used"
+}

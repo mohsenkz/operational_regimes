@@ -1,0 +1,2972 @@
+[
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": null,
+    "variant": "cyclic",
+    "method": "cyclic"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": null,
+    "variant": "random",
+    "method": "random"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.5113541506905263,
+      "frequency": 5.0,
+      "coupling": 0.7073815845276116
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 0,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.5958432862232783,
+      "frequency": 7.0,
+      "coupling": 0.8958730482825145
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 127,
+    "variant": "base",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "base",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "reptile_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "pooled_frozen"
+  },
+  {
+    "family": "unseen_E",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6728300009236948,
+      "frequency": 7.0,
+      "coupling": 0.873547808844046
+    },
+    "train_seed": 127,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_E",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_E",
+      "blocks": 12,
+      "per_block": 48,
+      "amplitude": 0.6638692347277593,
+      "frequency": 7.0,
+      "coupling": 0.8096879424393743
+    },
+    "train_seed": 113,
+    "variant": "shuffled",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": 127,
+    "variant": "shuffled",
+    "method": "reptile_frozen"
+  },
+  {
+    "family": "unseen_D",
+    "task": 2,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.48755727416969097,
+      "frequency": 5.0,
+      "coupling": 0.6753360895343822
+    },
+    "train_seed": 113,
+    "variant": "regime",
+    "method": "random_adapted"
+  },
+  {
+    "family": "unseen_D",
+    "task": 1,
+    "cfg": {
+      "name": "unseen_D",
+      "blocks": 8,
+      "per_block": 24,
+      "amplitude": 0.4858373654610596,
+      "frequency": 5.0,
+      "coupling": 0.6265455436146998
+    },
+    "train_seed": null,
+    "variant": "gs",
+    "method": "gs"
+  }
+]

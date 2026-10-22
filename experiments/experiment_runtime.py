@@ -66,6 +66,17 @@ def run_script(name, config=None, argv=None):
                     ast.parse(repr(value), mode="eval").body, node.value
                 )
 
+    # Prior commit 892621a used the pre-package src.* module paths. Translate
+    # import paths only; archived source bytes remain unchanged and hashable.
+    for node in ast.walk(tree):
+        if isinstance(node, ast.ImportFrom) and node.module:
+            for old, new in (
+                ("src.optimization", "operational_regimes.optimization"),
+                ("src.regimes", "operational_regimes.regimes"),
+            ):
+                if node.module == old or node.module.startswith(old + "."):
+                    node.module = new + node.module[len(old) :]
+
     ast.fix_missing_locations(tree)
     Path("figs").mkdir(exist_ok=True)
     logs = Path("run_metadata")
@@ -89,6 +100,7 @@ def run_script(name, config=None, argv=None):
 
     try:
         sys.argv = [str(source), *effective["argv"]]
+        sys.path.insert(0, str(ROOT))
         sys.path.insert(0, str(ROOT / "src"))
         namespace = {
             "__name__": "__main__",

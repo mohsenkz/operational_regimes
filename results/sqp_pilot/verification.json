@@ -1,0 +1,53 @@
+{
+  "derivative_checks": [
+    {
+      "family": "generic",
+      "gradient": 1.9988135591120226e-09,
+      "hessian": 4.673879061556363e-10,
+      "jacobian": 2.5544455439785452e-11
+    },
+    {
+      "family": "correlated",
+      "gradient": 1.0010392514914201e-10,
+      "hessian": 4.653637475371397e-10,
+      "jacobian": 1.2285283901292132e-11
+    },
+    {
+      "family": "opposed",
+      "gradient": 1.0010392514914201e-10,
+      "hessian": 4.653637475371397e-10,
+      "jacobian": 1.463562604442359e-11
+    }
+  ],
+  "paired_vs_baseline": {
+    "conditioning": {
+      "both_success": 34,
+      "qp_wins": 11,
+      "qp_ties": 19,
+      "qp_losses": 4,
+      "better_objective": 0,
+      "worse_objective": 2,
+      "geomean_time_ratio": 0.8421861831899005
+    },
+    "signature": {
+      "both_success": 34,
+      "qp_wins": 2,
+      "qp_ties": 30,
+      "qp_losses": 2,
+      "better_objective": 0,
+      "worse_objective": 0,
+      "geomean_time_ratio": 0.926052717429535
+    },
+    "shuffled": {
+      "both_success": 34,
+      "qp_wins": 6,
+      "qp_ties": 22,
+      "qp_losses": 6,
+      "better_objective": 3,
+      "worse_objective": 2,
+      "geomean_time_ratio": 0.8994509706058735
+    }
+  },
+  "total_runs": 207,
+  "test_runs": 144
+}

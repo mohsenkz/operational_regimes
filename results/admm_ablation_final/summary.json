@@ -1,0 +1,209 @@
+{
+  "methods": {
+    "fixed": {
+      "n": 48,
+      "success": 48,
+      "median_capped_iterations": 290.5,
+      "median_success_iterations": 290.5,
+      "median_online_time": 0.2691066494990082,
+      "mean_online_time": 0.34463911031245215,
+      "median_uncached_time": 0.27645169449897367,
+      "median_factor_count": 1.0,
+      "mean_feature_time": 0.0,
+      "total_signature_actions": 0,
+      "max_feasibility": 9.684363666551121e-06
+    },
+    "balance": {
+      "n": 48,
+      "success": 36,
+      "median_capped_iterations": 161.5,
+      "median_success_iterations": 165.5,
+      "median_online_time": 0.16537904100096057,
+      "mean_online_time": 0.3350849904583508,
+      "median_uncached_time": 0.17722080550083774,
+      "median_factor_count": 3.5,
+      "mean_feature_time": 0.0,
+      "total_signature_actions": 0,
+      "max_feasibility": 2.9190306696236235e-05
+    },
+    "balance_normalized": {
+      "n": 48,
+      "success": 35,
+      "median_capped_iterations": 167.0,
+      "median_success_iterations": 168.0,
+      "median_online_time": 0.20163010399937775,
+      "mean_online_time": 0.3537049517084749,
+      "median_uncached_time": 0.21163037449969124,
+      "median_factor_count": 3.5,
+      "mean_feature_time": 0.0,
+      "total_signature_actions": 0,
+      "max_feasibility": 2.9190306696236235e-05
+    },
+    "history": {
+      "n": 48,
+      "success": 39,
+      "median_capped_iterations": 179.5,
+      "median_success_iterations": 179.0,
+      "median_online_time": 0.184310033499969,
+      "mean_online_time": 0.3021912340209762,
+      "median_uncached_time": 0.19093458299812482,
+      "median_factor_count": 4.0,
+      "mean_feature_time": 0.0,
+      "total_signature_actions": 0,
+      "max_feasibility": 2.9165746999737507e-05
+    },
+    "signature": {
+      "n": 48,
+      "success": 39,
+      "median_capped_iterations": 179.5,
+      "median_success_iterations": 179.0,
+      "median_online_time": 0.19337395050024497,
+      "mean_online_time": 0.3035685184167581,
+      "median_uncached_time": 0.2546793554993201,
+      "median_factor_count": 4.0,
+      "mean_feature_time": 0.007082723562992517,
+      "total_signature_actions": 1,
+      "max_feasibility": 2.9165746999737507e-05
+    },
+    "label": {
+      "n": 48,
+      "success": 39,
+      "median_capped_iterations": 179.5,
+      "median_success_iterations": 179.0,
+      "median_online_time": 0.18006662449988653,
+      "mean_online_time": 0.3205759585833145,
+      "median_uncached_time": 0.25051301900111866,
+      "median_factor_count": 4.0,
+      "mean_feature_time": 0.007658484187800241,
+      "total_signature_actions": 0,
+      "max_feasibility": 2.9165746999737507e-05
+    },
+    "shuffled": {
+      "n": 48,
+      "success": 39,
+      "median_capped_iterations": 179.5,
+      "median_success_iterations": 179.0,
+      "median_online_time": 0.19253959449997637,
+      "mean_online_time": 0.3055304721664622,
+      "median_uncached_time": 0.26686488250106777,
+      "median_factor_count": 4.0,
+      "mean_feature_time": 0.007383216208002826,
+      "total_signature_actions": 1,
+      "max_feasibility": 2.9165746999737507e-05
+    }
+  },
+  "paired_comparisons": [
+    {
+      "candidate": "history",
+      "baseline": "balance_normalized",
+      "paired_n": 48,
+      "both_success": 32,
+      "candidate_only_success": 7,
+      "baseline_only_success": 3,
+      "paired_geomean_time_ratio": 0.909096559149486,
+      "conditional_bootstrap_95": [
+        0.8390408749513661,
+        0.9870302406087741
+      ],
+      "iteration_wins": 15,
+      "iteration_ties": 5,
+      "iteration_losses": 12
+    },
+    {
+      "candidate": "signature",
+      "baseline": "balance_normalized",
+      "paired_n": 48,
+      "both_success": 32,
+      "candidate_only_success": 7,
+      "baseline_only_success": 3,
+      "paired_geomean_time_ratio": 0.912688304318408,
+      "conditional_bootstrap_95": [
+        0.8485983240337429,
+        0.985309019511166
+      ],
+      "iteration_wins": 15,
+      "iteration_ties": 5,
+      "iteration_losses": 12
+    },
+    {
+      "candidate": "signature",
+      "baseline": "history",
+      "paired_n": 48,
+      "both_success": 39,
+      "candidate_only_success": 0,
+      "baseline_only_success": 0,
+      "paired_geomean_time_ratio": 1.0164074872646094,
+      "conditional_bootstrap_95": [
+        0.9698564424384106,
+        1.0645944350487015
+      ],
+      "iteration_wins": 0,
+      "iteration_ties": 39,
+      "iteration_losses": 0
+    },
+    {
+      "candidate": "label",
+      "baseline": "balance_normalized",
+      "paired_n": 48,
+      "both_success": 32,
+      "candidate_only_success": 7,
+      "baseline_only_success": 3,
+      "paired_geomean_time_ratio": 0.9019131408753522,
+      "conditional_bootstrap_95": [
+        0.8440824986340285,
+        0.9651284248196488
+      ],
+      "iteration_wins": 15,
+      "iteration_ties": 5,
+      "iteration_losses": 12
+    },
+    {
+      "candidate": "label",
+      "baseline": "history",
+      "paired_n": 48,
+      "both_success": 39,
+      "candidate_only_success": 0,
+      "baseline_only_success": 0,
+      "paired_geomean_time_ratio": 0.9952301263971358,
+      "conditional_bootstrap_95": [
+        0.9513052594050452,
+        1.0384305205590836
+      ],
+      "iteration_wins": 0,
+      "iteration_ties": 39,
+      "iteration_losses": 0
+    },
+    {
+      "candidate": "shuffled",
+      "baseline": "balance_normalized",
+      "paired_n": 48,
+      "both_success": 32,
+      "candidate_only_success": 7,
+      "baseline_only_success": 3,
+      "paired_geomean_time_ratio": 0.9375022254089417,
+      "conditional_bootstrap_95": [
+        0.8698799794270413,
+        1.0140636779077647
+      ],
+      "iteration_wins": 15,
+      "iteration_ties": 5,
+      "iteration_losses": 12
+    },
+    {
+      "candidate": "shuffled",
+      "baseline": "history",
+      "paired_n": 48,
+      "both_success": 39,
+      "candidate_only_success": 0,
+      "baseline_only_success": 0,
+      "paired_geomean_time_ratio": 1.0359800892805542,
+      "conditional_bootstrap_95": [
+        0.9855841228101802,
+        1.0891144446203977
+      ],
+      "iteration_wins": 0,
+      "iteration_ties": 39,
+      "iteration_losses": 0
+    }
+  ]
+}

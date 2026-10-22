@@ -1,0 +1,80 @@
+{
+  "paired": {
+    "history_vs_baseline": {
+      "n": 36,
+      "nfev_wins": 2,
+      "nfev_ties": 32,
+      "nfev_losses": 2,
+      "geomean_nfev_ratio": 1.004460228538812,
+      "bootstrap_95": [
+        0.9930153170473559,
+        1.0209451372326679
+      ],
+      "objective_better": 0,
+      "objective_worse": 0,
+      "max_objective_difference": 6.598851798766958e-06
+    },
+    "signature_vs_baseline": {
+      "n": 36,
+      "nfev_wins": 3,
+      "nfev_ties": 24,
+      "nfev_losses": 9,
+      "geomean_nfev_ratio": 1.0323977396585589,
+      "bootstrap_95": [
+        1.0042743601400632,
+        1.0658470535421891
+      ],
+      "objective_better": 1,
+      "objective_worse": 0,
+      "max_objective_difference": 1.0312749181284886e-05
+    },
+    "random_vs_baseline": {
+      "n": 36,
+      "nfev_wins": 14,
+      "nfev_ties": 5,
+      "nfev_losses": 17,
+      "geomean_nfev_ratio": 1.0322897148271304,
+      "bootstrap_95": [
+        0.9831558865623781,
+        1.0831471631869485
+      ],
+      "objective_better": 3,
+      "objective_worse": 0,
+      "max_objective_difference": 1.6185666619872308e-05
+    },
+    "signature_vs_history": {
+      "n": 36,
+      "nfev_wins": 5,
+      "nfev_ties": 22,
+      "nfev_losses": 9,
+      "geomean_nfev_ratio": 1.0278134567462043,
+      "bootstrap_95": [
+        0.9993731287146596,
+        1.0620341340206476
+      ],
+      "objective_better": 0,
+      "objective_worse": 0,
+      "max_objective_difference": 8.677386123423503e-06
+    },
+    "random_vs_history": {
+      "n": 36,
+      "nfev_wins": 14,
+      "nfev_ties": 5,
+      "nfev_losses": 17,
+      "geomean_nfev_ratio": 1.0277059115907476,
+      "bootstrap_95": [
+        0.9785167289578648,
+        1.076742025364459
+      ],
+      "objective_better": 2,
+      "objective_worse": 0,
+      "max_objective_difference": 1.1299815632526133e-05
+    }
+  },
+  "bootstrap": "10000 paired instance resamples, pooled across families; exploratory, unadjusted",
+  "finite": true,
+  "all_duals_nonnegative": true,
+  "max_test_feasibility": 9.981888945964634e-07,
+  "max_test_stationarity": 3.015457572530522e-06,
+  "max_test_complementarity": 9.578814488109924e-06
+}

@@ -1,0 +1,44 @@
+{
+  "config": {
+    "calibration_seeds": [
+      11,
+      22,
+      33
+    ],
+    "test_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "families": [
+      "generic",
+      "correlated",
+      "opposed"
+    ],
+    "strengths": [
+      0.001,
+      0.01
+    ],
+    "maxit": 100,
+    "methods": [
+      "baseline",
+      "conditioning",
+      "signature",
+      "shuffled"
+    ],
+    "caveat": "Exploratory custom SQP; estimated multipliers; no global optimality or theorem claim. Shuffled is Bernoulli placebo, not distribution-matched permutation."
+  },
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "python": "3.11.16",
+  "source_sha256": "1d00f79bbaac021b6a246a0548e429de7e82611a7da9ea4c996e29fa114c1583"
+}

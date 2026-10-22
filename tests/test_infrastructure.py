@@ -23,11 +23,20 @@ class InfrastructureTests(unittest.TestCase):
             n for n in names if n not in {"tier1_families", "tier2_mm", "plot_fig1"}
         ]
         # -S disables site-packages: wrappers must not import scientific packages.
+        modules = []
+        for name in names:
+            paths = [
+                p
+                for p in (ROOT / "experiments").rglob(name + ".py")
+                if "_legacy" not in p.parts
+            ]
+            self.assertEqual(len(paths), 1, name)
+            modules.append(".".join(paths[0].relative_to(ROOT).with_suffix("").parts))
         code = (
             "import sys; sys.path.insert(0, "
-            + repr(str(ROOT / "src"))
+            + repr(str(ROOT))
             + "); "
-            + "; ".join("import " + n for n in names)
+            + "; ".join("import " + n for n in modules)
         )
         with tempfile.TemporaryDirectory() as tmp:
             result = subprocess.run(

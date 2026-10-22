@@ -1,0 +1,61 @@
+{
+  "config": {
+    "conditions": [
+      {
+        "name": "small_mild",
+        "blocks": 4,
+        "per_block": 4,
+        "amplitude": 0.1,
+        "frequency": 2.0,
+        "coupling": 0.2
+      },
+      {
+        "name": "medium_nonlinear",
+        "blocks": 8,
+        "per_block": 16,
+        "amplitude": 0.4,
+        "frequency": 4.0,
+        "coupling": 0.5
+      },
+      {
+        "name": "many_constraints",
+        "blocks": 12,
+        "per_block": 64,
+        "amplitude": 0.4,
+        "frequency": 4.0,
+        "coupling": 0.5
+      }
+    ],
+    "calibration_seeds": [
+      1111,
+      1122
+    ],
+    "test_seeds": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205,
+      1206
+    ],
+    "methods": [
+      "cyclic",
+      "random",
+      "gs",
+      "signature",
+      "shuffled"
+    ],
+    "alphas": [
+      0.25,
+      1.0
+    ],
+    "maxupdates": 600,
+    "certificate_interval": "number of blocks",
+    "stationarity_tol": 0.0001,
+    "caveat": "Block-separable convex constraints, coupled nonconvex objective; projected BCD with safe block Lipschitz steps. Shuffled permutes weights among blocks at each selection."
+  },
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "python": "3.11.16",
+  "source_sha256": "6b5be508c11ce8d8d91a979e1807eaf5c2a3fd159c6862e9c5749e5e153a4b25"
+}

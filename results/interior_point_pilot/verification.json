@@ -1,0 +1,66 @@
+{
+  "paired_vs_baseline": {
+    "conditioning": {
+      "both_success": 28,
+      "only_method_success": 1,
+      "only_baseline_success": 4,
+      "nfev_wins": 2,
+      "nfev_ties": 3,
+      "nfev_losses": 23,
+      "geomean_nfev_ratio": 1.144467141264054,
+      "bootstrap95": [
+        0.8703783676069254,
+        1.5134094248718717
+      ],
+      "max_objective_difference": 9.216680804779998e-06,
+      "objective_differences_over_1e3": 0
+    },
+    "signature": {
+      "both_success": 30,
+      "only_method_success": 1,
+      "only_baseline_success": 2,
+      "nfev_wins": 2,
+      "nfev_ties": 0,
+      "nfev_losses": 28,
+      "geomean_nfev_ratio": 1.1879680444130745,
+      "bootstrap95": [
+        0.9146420305427514,
+        1.5724357007137189
+      ],
+      "max_objective_difference": 1.9200383320594483e-05,
+      "objective_differences_over_1e3": 0
+    },
+    "random": {
+      "both_success": 27,
+      "only_method_success": 1,
+      "only_baseline_success": 5,
+      "nfev_wins": 2,
+      "nfev_ties": 0,
+      "nfev_losses": 25,
+      "geomean_nfev_ratio": 1.2769127234863111,
+      "bootstrap95": [
+        0.9876450896452227,
+        1.6809357050475646
+      ],
+      "max_objective_difference": 2.1758721047149265e-05,
+      "objective_differences_over_1e3": 0
+    }
+  },
+  "failure_reasons": {
+    "baseline": {
+      "inner_budget": 4
+    },
+    "conditioning": {
+      "inner_budget": 7
+    },
+    "signature": {
+      "inner_budget": 5
+    },
+    "random": {
+      "inner_budget": 8
+    }
+  },
+  "all_finite": true,
+  "all_strict_interior": true,
+  "bootstrap_note": "10000 pooled paired-instance resamples; conditional on both success, exploratory, unadjusted"
+}

@@ -1,0 +1,76 @@
+{
+  "config": {
+    "seeds": [
+      113,
+      127
+    ],
+    "variants": [
+      "base",
+      "regime",
+      "shuffled"
+    ],
+    "outer_tasks": 12,
+    "inner_episodes": 2,
+    "train_horizon": 96,
+    "query_horizon": 384,
+    "train_families": [
+      {
+        "name": "train_A",
+        "blocks": 4,
+        "per_block": 4,
+        "amplitude": 0.1,
+        "frequency": 2.0,
+        "coupling": 0.2
+      },
+      {
+        "name": "train_B",
+        "blocks": 6,
+        "per_block": 8,
+        "amplitude": 0.25,
+        "frequency": 3.0,
+        "coupling": 0.35
+      },
+      {
+        "name": "train_C",
+        "blocks": 8,
+        "per_block": 16,
+        "amplitude": 0.4,
+        "frequency": 4.0,
+        "coupling": 0.5
+      }
+    ],
+    "test_families": [
+      {
+        "name": "unseen_D",
+        "blocks": 8,
+        "per_block": 24,
+        "amplitude": 0.5,
+        "frequency": 5.0,
+        "coupling": 0.65
+      },
+      {
+        "name": "unseen_E",
+        "blocks": 12,
+        "per_block": 48,
+        "amplitude": 0.65,
+        "frequency": 7.0,
+        "coupling": 0.85
+      }
+    ],
+    "tasks_per_test_family": 3,
+    "support_episodes": 2,
+    "algorithm": "first-order Reptile over REINFORCE+critic inner updates",
+    "meta_rate": "linear .25 to .05",
+    "optimizer": "fresh Adam per meta-task and per test adaptation; persistent Adam for pooled training",
+    "checkpoint": "final fixed budget; no validation or test tuning",
+    "adaptation": "policy+critic, two independent support instances; optimizer reset; no query gradients"
+  },
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "python": "3.11.16",
+  "source_hashes": {
+    "experiments/meta_rl_bcd/benchmark_meta.py": "7296d359628d2e442ecf19db2a1207e97faebc72e8edc82d73653c1a639117bb",
+    "experiments/rl_bcd/benchmark_rl.py": "e7efc44096bea2c3a84087777185a4b2ec5044b9765fa00e80bc63ca4f4700c8",
+    "experiments/bcd/benchmark_bcd.py": "5a6ca2df3c81dcbc2584975e6f4cbdbeb4c48cd385047d19e1d42f39c5f9d07c"
+  }
+}

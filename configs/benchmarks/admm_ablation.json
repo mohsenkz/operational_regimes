@@ -1,0 +1,31 @@
+{
+  "calibration_seeds": [11, 22, 33, 44],
+  "test_seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112],
+  "conditions": [
+    [0, 0],
+    [5, 0],
+    [0, 10],
+    [5, 10]
+  ],
+  "rho_grid": [0.1, 1.0, 10.0],
+  "order_seed": 20261022,
+  "threads": 1,
+  "solver": {
+    "maxit": 4000,
+    "tol": 1e-6,
+    "check": 10,
+    "alpha": 1.0,
+    "feature_check": 20,
+    "warmup": 100,
+    "activation": 10000
+  },
+  "methods": {
+    "fixed": { "strategy": "fixed" },
+    "balance": { "strategy": "balance" },
+    "balance_normalized": { "strategy": "balance_normalized" },
+    "history": { "strategy": "history" },
+    "signature": { "strategy": "signature" },
+    "label": { "strategy": "label" },
+    "shuffled": { "strategy": "shuffled" }
+  }
+}

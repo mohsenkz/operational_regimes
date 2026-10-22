@@ -1,0 +1,135 @@
+{
+  "config": {
+    "calibration_seeds": [
+      11,
+      22,
+      33,
+      44
+    ],
+    "test_seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "conditions": [
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "rho_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "order_seed": 20261022,
+    "threads": 1,
+    "solver": {
+      "maxit": 4000,
+      "tol": 1e-06,
+      "check": 10,
+      "alpha": 1.0,
+      "feature_check": 20,
+      "warmup": 100,
+      "activation": 10000
+    },
+    "methods": {
+      "fixed": {
+        "strategy": "fixed"
+      },
+      "balance": {
+        "strategy": "balance"
+      },
+      "balance_normalized": {
+        "strategy": "balance_normalized"
+      },
+      "history": {
+        "strategy": "history"
+      },
+      "signature": {
+        "strategy": "signature"
+      },
+      "label": {
+        "strategy": "label"
+      },
+      "shuffled": {
+        "strategy": "shuffled"
+      }
+    }
+  },
+  "python": "3.11.16",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "cvxpy": "1.6.5",
+  "clarabel": "0.10.0",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+  "repository_commit": "4671a81c7d7fc2d0bfe2175d179d43be37e71444",
+  "source_sha256": {
+    "experiments/admm/benchmark_ablation.py": "a670d291a30d01c12276cea96db398f63fdffcfdae2759e2e5c336ff140d9950",
+    "src/experiment_runtime.py": "f094e8db3539813b5597c766a4ed0014532519cdc565413341048175c3fafa78",
+    "src/operational_regimes/optimization/admm_mimo.py": "8432f4a389d7e8bbdc1b7f77864cd4b2d7f06830fe05170f4a7fc08b8b21e727",
+    "src/operational_regimes/optimization/mimo.py": "a2b4a3f4df125fe909fb424608508e7e37695c4c8414e10400a4986040bf3507",
+    "src/operational_regimes/optimization/mimo_maxmin.py": "62d6c605af637d3e08a8c2297ad331a442efebd8807b22d7f86f9bf3e032dadb",
+    "src/operational_regimes/optimization/mimo_sumrate.py": "cb0e98a16ca89cfcecd7f18eb3cca10c63b23e16f51407150767442d946ec99a",
+    "src/operational_regimes/optimization/solvers.py": "68be6f4ed6bf8a8fc69f48933b04a84c9f3071eb2a3206bced4c46ef382cdcfd",
+    "src/operational_regimes/regimes/core.py": "2dd00cbb4bcca1d0471695af1f2da10f23bfb72249b33bd2c03e522cfd8ecacd",
+    "src/operational_regimes/utils/plotting.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "calibration_objective": "minimize (failed common certificates, mean capped iterations, rho)",
+  "accuracy": "ADMM r,s,stationarity thresholds plus relative objective error <=1e-4, cone violation <=1e-5, phase equality <=1e-7",
+  "time_definition": "run() includes initial/update factorization, controller, feature extraction, residual tests; excludes shared Prob construction and reference solves; extra setup timings retained separately",
+  "caveat": "Small exploratory pilot; no out-of-distribution validation or nonconvex convergence claim",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/usr/local/lib/python3.11/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/usr/local/lib/python3.11/site-packages/scipy.libs/libopenblasp-r0-01191904.3.27.so",
+      "version": "0.3.27",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/mnt/data/admm_deps/scs.libs/libopenblas-r0-f650aae0.3.3.so",
+      "version": null,
+      "threading_layer": "disabled",
+      "architecture": "Haswell"
+    }
+  ]
+}

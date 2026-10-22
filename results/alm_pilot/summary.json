@@ -1,0 +1,56 @@
+{
+  "methods": {
+    "baseline": {
+      "n": 36,
+      "success": 36,
+      "median_nfev": 260.5,
+      "median_outer": 15.0,
+      "median_time": 0.04131796150068112,
+      "actions": 0,
+      "inner_failures": 3
+    },
+    "history": {
+      "n": 36,
+      "success": 36,
+      "median_nfev": 270.0,
+      "median_outer": 15.0,
+      "median_time": 0.040460083499056054,
+      "actions": 6,
+      "inner_failures": 3
+    },
+    "signature": {
+      "n": 36,
+      "success": 36,
+      "median_nfev": 269.0,
+      "median_outer": 15.5,
+      "median_time": 0.04351060550015973,
+      "actions": 33,
+      "inner_failures": 3
+    },
+    "random": {
+      "n": 36,
+      "success": 36,
+      "median_nfev": 276.5,
+      "median_outer": 16.0,
+      "median_time": 0.04335971700038499,
+      "actions": 81,
+      "inner_failures": 1
+    }
+  },
+  "selected_factors": {
+    "generic:baseline": 5.0,
+    "generic:history": 2.0,
+    "generic:signature": 2.0,
+    "generic:random": 2.0,
+    "correlated:baseline": 5.0,
+    "correlated:history": 2.0,
+    "correlated:signature": 2.0,
+    "correlated:random": 3.0,
+    "opposed:baseline": 5.0,
+    "opposed:history": 2.0,
+    "opposed:signature": 3.0,
+    "opposed:random": 3.0
+  },
+  "wall_time": 8.970417979000558,
+  "total_runs": 207
+}

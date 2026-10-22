@@ -1,0 +1,49 @@
+{
+  "config": {
+    "families": [
+      "generic",
+      "correlated",
+      "opposed"
+    ],
+    "methods": [
+      "baseline",
+      "conditioning",
+      "signature",
+      "random"
+    ],
+    "calibration_seeds": [
+      71,
+      82,
+      93
+    ],
+    "test_seeds": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312
+    ],
+    "factors": [
+      0.4,
+      0.6
+    ],
+    "initial_mu": 0.1,
+    "baseline_reduction": 0.2,
+    "maxouter": 30,
+    "inner_maxiter": 100,
+    "evaluation_budget": 10000,
+    "caveat": "Feasible primal log-barrier, known feasible origin, not predictor-corrector primal-dual IPM. Random is unmatched Bernoulli placebo."
+  },
+  "python": "3.11.16",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "source_sha256": "bdc25ff8c5a39361c403d76b86fa8509f34c16bb2c3a36c063cc624d4e1da28e",
+  "problem_source_sha256": "1d00f79bbaac021b6a246a0548e429de7e82611a7da9ea4c996e29fa114c1583"
+}

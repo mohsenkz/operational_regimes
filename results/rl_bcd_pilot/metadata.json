@@ -1,0 +1,71 @@
+{
+  "config": {
+    "algorithm": "episodic REINFORCE, learned linear state baseline, Adam",
+    "train_seeds": [
+      71,
+      83,
+      97
+    ],
+    "episodes_per_model": 80,
+    "train_horizon": 128,
+    "test_horizon": 600,
+    "variants": [
+      "base",
+      "regime",
+      "shuffled"
+    ],
+    "train_conditions": [
+      {
+        "name": "train_small",
+        "blocks": 4,
+        "per_block": 4,
+        "amplitude": 0.1,
+        "frequency": 2.0,
+        "coupling": 0.2
+      },
+      {
+        "name": "train_medium",
+        "blocks": 8,
+        "per_block": 16,
+        "amplitude": 0.4,
+        "frequency": 4.0,
+        "coupling": 0.5
+      }
+    ],
+    "test_conditions": [
+      {
+        "name": "heldout_ID",
+        "blocks": 8,
+        "per_block": 16,
+        "amplitude": 0.4,
+        "frequency": 4.0,
+        "coupling": 0.5
+      },
+      {
+        "name": "heldout_OOD",
+        "blocks": 12,
+        "per_block": 64,
+        "amplitude": 0.6,
+        "frequency": 6.0,
+        "coupling": 0.8
+      }
+    ],
+    "test_instances_per_condition": 6,
+    "architecture": {
+      "inputs": 10,
+      "hidden": 16,
+      "shared_block_scorer": "tanh"
+    },
+    "learning_rate": 0.003,
+    "gamma": 0.99,
+    "entropy": 0.01,
+    "reward": "-0.01 per update + clipped log decrease of projected stationarity each B updates +2 at success",
+    "evaluation": "stochastic frozen policy, single action draw sequence per model-instance; no adaptation",
+    "checkpoints": "final fixed training budget, no validation/test checkpoint selection"
+  },
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "python": "3.11.16",
+  "source_sha256": "e7efc44096bea2c3a84087777185a4b2ec5044b9765fa00e80bc63ca4f4700c8",
+  "bcd_sha256": "5a6ca2df3c81dcbc2584975e6f4cbdbeb4c48cd385047d19e1d42f39c5f9d07c"
+}

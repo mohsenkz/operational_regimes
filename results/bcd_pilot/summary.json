@@ -1,0 +1,63 @@
+{
+  "methods": {
+    "cyclic": {
+      "n": 18,
+      "success": 17,
+      "median_updates": 168.0,
+      "median_projection_calls": 344.0,
+      "median_time": 0.4717511739991096,
+      "projection_failures": 0
+    },
+    "random": {
+      "n": 18,
+      "success": 17,
+      "median_updates": 142.0,
+      "median_projection_calls": 294.0,
+      "median_time": 0.4677312895000796,
+      "projection_failures": 0
+    },
+    "gs": {
+      "n": 18,
+      "success": 18,
+      "median_updates": 60.0,
+      "median_projection_calls": 646.0,
+      "median_time": 0.8879503809994276,
+      "projection_failures": 0
+    },
+    "signature": {
+      "n": 18,
+      "success": 18,
+      "median_updates": 60.0,
+      "median_projection_calls": 646.0,
+      "median_time": 0.9620886250004332,
+      "projection_failures": 0
+    },
+    "shuffled": {
+      "n": 18,
+      "success": 17,
+      "median_updates": 72.0,
+      "median_projection_calls": 656.0,
+      "median_time": 1.3537899174989434,
+      "projection_failures": 0
+    }
+  },
+  "selected_alphas": {
+    "small_mild:cyclic": 0.0,
+    "small_mild:random": 0.0,
+    "small_mild:gs": 0.0,
+    "small_mild:signature": 0.25,
+    "small_mild:shuffled": 1.0,
+    "medium_nonlinear:cyclic": 0.0,
+    "medium_nonlinear:random": 0.0,
+    "medium_nonlinear:gs": 0.0,
+    "medium_nonlinear:signature": 0.25,
+    "medium_nonlinear:shuffled": 0.25,
+    "many_constraints:cyclic": 0.0,
+    "many_constraints:random": 0.0,
+    "many_constraints:gs": 0.0,
+    "many_constraints:signature": 0.25,
+    "many_constraints:shuffled": 0.25
+  },
+  "total_runs": 132,
+  "wall_time": 137.03143078599896
+}

@@ -1,0 +1,23 @@
+{
+  "0:fixed": 1.0,
+  "0:balance": 1.0,
+  "0:balance_normalized": 1.0,
+  "0:history": 1.0,
+  "0:signature": 1.0,
+  "0:label": 1.0,
+  "0:shuffled": 1.0,
+  "1:fixed": 10.0,
+  "1:balance": 1.0,
+  "1:balance_normalized": 1.0,
+  "1:history": 10.0,
+  "1:signature": 10.0,
+  "1:label": 10.0,
+  "1:shuffled": 10.0,
+  "2:fixed": 1.0,
+  "2:balance": 10.0,
+  "2:balance_normalized": 10.0,
+  "2:history": 1.0,
+  "2:signature": 1.0,
+  "2:label": 1.0,
+  "2:shuffled": 1.0
+}
